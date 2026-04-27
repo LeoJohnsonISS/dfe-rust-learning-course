@@ -32,8 +32,10 @@ The hash function is a small Linear Congruential Generator-style mixer plus a co
 
 ## Running the Solution
 
+From the **repo root**:
+
 ```bash
-cd solution
+cd month-2/project/world-generator/solution
 cargo run                            # default world
 cargo run -- --seed 7                # different world
 cargo run -- --seed 7 --width 100    # wider world, same seed → same biomes left side

@@ -82,8 +82,10 @@ The first `cargo build` will pull ~80 crates and take a couple of minutes. Don't
 
 ## Try the solution
 
+From the **repo root**:
+
 ```bash
-cd solution
+cd month-3/project/midi-synth/solution
 
 # Single note: A4 (MIDI 69) for 1 second, sine wave → a4.wav
 cargo run -- --note 69 --duration 1 --waveform sine --out a4.wav

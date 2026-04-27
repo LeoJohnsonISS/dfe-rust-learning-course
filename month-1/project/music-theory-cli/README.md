@@ -37,8 +37,10 @@ Any of `C`, `C#`, `Db`, `D`, `D#`, `Eb`, `E`, `F`, `F#`, `Gb`, `G`, `G#`, `Ab`, 
 
 ## Build and run from the solution
 
+From the **repo root**:
+
 ```bash
-cd solution
+cd month-1/project/music-theory-cli/solution
 cargo run -- --root C --scale major
 ```
 

@@ -43,6 +43,15 @@ midi-synth --live                                 # live keyboard
 
 …all sharing the same engine, ADSR, and WAV writer. That's the project complete.
 
+> 💡 **Where to work today.** This is a project session, so you'll be inside the project folder, not the session folder. From a fresh terminal **at the root of the repo**, run:
+>
+> ```bash
+> cd month-3/project/midi-synth/starter        # your work-in-progress
+> cargo run -- <args>
+> ```
+>
+> The reference implementation lives in `month-3/project/midi-synth/solution/` — peek only when you're properly stuck. All `cargo run` commands shown below assume you're inside `month-3/project/midi-synth/starter/`.
+
 ## Step-by-Step Walkthrough
 
 ### 1. Add chord-related CLI flags

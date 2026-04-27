@@ -23,6 +23,15 @@ Notes: C  D  E  F  G  A  B  C
 
 ---
 
+> 💡 **Where to work today.** This is a project session, so you'll be inside the project folder, not the session folder. From a fresh terminal **at the root of the repo**, run:
+>
+> ```bash
+> cd month-1/project/music-theory-cli/starter        # your work-in-progress
+> cargo run -- <args>
+> ```
+>
+> The reference implementation lives in `month-1/project/music-theory-cli/solution/` — peek only when you're properly stuck. All `cargo run` commands shown below assume you're inside `month-1/project/music-theory-cli/starter/`.
+
 ## Approach
 
 A `starter/` skeleton is provided in [`../../project/music-theory-cli/starter/`](../../project/music-theory-cli/starter/). Open it, work through the TODOs, and don't peek at the [`solution/`](../../project/music-theory-cli/solution/) until you've genuinely tried.

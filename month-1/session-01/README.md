@@ -24,6 +24,15 @@ Today is mostly motivation and setup, but everything you do later in Month 1 beg
 
 ---
 
+> 💡 **How to run the examples in this session.** Every example below lives in its own folder under `month-1/session-01/examples/`. From a fresh terminal **at the root of the repo**, run:
+>
+> ```bash
+> cd month-1/session-01/examples/<example-folder>
+> cargo run
+> ```
+>
+> Replace `<example-folder>` with the name shown in each section (e.g. `chromatic_scale`). Always start `cd`-ing from the repo root so you don't get lost.
+
 ## Step-by-Step Walkthrough
 
 ### 1. The speed demo: Pi by random sampling
@@ -92,7 +101,14 @@ fn main() {
 }
 ```
 
-Run it: `cd examples/pi_rust && cargo run --release`. On the same machine: **under 1 second**, and very often under half a second.
+Run it (from the repo root):
+
+```bash
+cd month-1/session-01/examples/pi_rust
+cargo run --release
+```
+
+On the same machine: **under 1 second**, and very often under half a second.
 
 > ### 🚀 Why is Rust so much faster?
 >
@@ -112,11 +128,15 @@ If you haven't already, follow [`SETUP.md`](../../../SETUP.md) for your platform
 
 ### 3. Your first Rust program
 
+Open a terminal **anywhere outside the repo** (your `~/Projects` folder is fine) and run:
+
 ```bash
 cargo new hello_world
 cd hello_world
 cargo run
 ```
+
+> This is one of the few `cd` commands in the course that *isn't* relative to the repo root — `cargo new` creates a brand-new project wherever you happen to be standing. From Session 2 onwards, every `cd` you'll see starts at the repo root.
 
 What just happened?
 

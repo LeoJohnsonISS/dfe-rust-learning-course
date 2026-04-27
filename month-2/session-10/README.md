@@ -52,6 +52,15 @@ The world is going to be a `Vec<Vec<Tile>>` and `Tile` will be exactly the enum 
 
 ---
 
+> 💡 **How to run the examples in this session.** Every example below lives in its own folder under `month-2/session-10/examples/`. From a fresh terminal **at the root of the repo**, run:
+>
+> ```bash
+> cd month-2/session-10/examples/<example-folder>
+> cargo run
+> ```
+>
+> Replace `<example-folder>` with the name shown in each section (e.g. `chromatic_scale`). Always start `cd`-ing from the repo root so you don't get lost.
+
 ## Step-by-Step Walkthrough
 
 ### 1. The `Tile` enum
