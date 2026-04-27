@@ -28,6 +28,10 @@ You don't print everything at the end. Spread it across the course so the binder
 
 ## How to print a Markdown file from GitHub
 
+> 💡 **Strongly recommended:** install the free **[GitHub Markdown Printer](https://github.com/jerry1100/github-markdown-printer)** Chrome / Edge extension first. It strips GitHub's site chrome (the navbar, sidebars, comment boxes, footer) and reformats the page for clean A4 printing — it's the difference between a wonky-looking handout and something that genuinely looks like a textbook. Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk), then just hit Print as normal.
+
+With or without the extension:
+
 1. Open the file on github.com in your browser.
 2. Press **Ctrl + P** (Windows / Linux) or **Cmd + P** (macOS).
 3. Set:
