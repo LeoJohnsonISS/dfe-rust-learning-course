@@ -1,0 +1,82 @@
+# Print Checklist — Building the Assessor Binder
+
+This checklist tells you **exactly what to print, in what order, and when**. The end result is a physical A4 ring binder that contains everything your DofE assessor needs. Most assessors will not (and should not be expected to) browse a git repository — the binder is the evidence.
+
+A slim 25 mm ring binder, A4, three-hole punched, is plenty.
+
+---
+
+## When to print what
+
+You don't print everything at the end. Spread it across the course so the binder grows alongside your skills.
+
+| When | What to print | File |
+|---|---|---|
+| **Before Session 1** | Cover page + the 24 blank session-log forms | [`session-log-printable.md`](./session-log-printable.md) |
+| **After Session 8** | Milestone 1 reflection (filled in) | [`milestone-1-reflection.md`](./milestone-1-reflection.md) |
+| **After Session 8** | Project 1 README (`music-theory-cli`) | [`../month-1/project/music-theory-cli/README.md`](../month-1/project/music-theory-cli/README.md) |
+| **After Session 16** | Milestone 2 reflection (filled in) | [`milestone-2-reflection.md`](./milestone-2-reflection.md) |
+| **After Session 16** | Project 2 README (`world-generator`) | [`../month-2/project/world-generator/README.md`](../month-2/project/world-generator/README.md) |
+| **After Session 24** | Milestone 3 reflection (filled in) | [`milestone-3-reflection.md`](./milestone-3-reflection.md) |
+| **After Session 24** | Project 3 README (`midi-synth`) | [`../month-3/project/midi-synth/README.md`](../month-3/project/midi-synth/README.md) |
+| **After Session 24** | Participant statement (filled in) | [`participant-statement-template.md`](./participant-statement-template.md) |
+| **After Session 24** | Progress summary (one-page index) | [`progress-summary.md`](./progress-summary.md) |
+| **Before handover** | Assessor briefing + sign-off form | [`assessor-briefing.md`](./assessor-briefing.md) |
+
+---
+
+## How to print a Markdown file from GitHub
+
+1. Open the file on github.com in your browser.
+2. Press **Ctrl + P** (Windows / Linux) or **Cmd + P** (macOS).
+3. Set:
+   - **Destination:** your printer (or "Save as PDF" then print the PDF later)
+   - **Paper size:** A4
+   - **Layout:** Portrait
+   - **Margins:** Default
+   - ✅ **Background graphics** (so table lines render — this matters for the session log forms)
+4. Print.
+
+Tables and code blocks render fine. Page breaks in `session-log-printable.md` are explicit so each session form ends up on its own page.
+
+---
+
+## Final binder order (recommended)
+
+When your assessor opens the binder, this is what they should see:
+
+1. **Cover page** (built into `session-log-printable.md`) — participant name, dates, award level
+2. **Assessor briefing** — the first thing they need to read
+3. **Progress summary** — one-page map of the course (gives them context fast)
+4. **24 session-log pages** — in order, dated, handwritten or typed-and-printed
+5. **Milestone 1 reflection** + Project 1 README
+6. **Milestone 2 reflection** + Project 2 README
+7. **Milestone 3 reflection** + Project 3 README
+8. **Participant statement** (your final personal reflection)
+9. **Assessor sign-off form** (the last page of the briefing — leave blank, the assessor fills it in)
+
+That ordering matches the flow described in `assessor-briefing.md`, so the assessor can review section by section.
+
+---
+
+## Optional extras
+
+If you want to make the binder properly impressive (and you've got the time):
+
+- **Print one short code listing per project** — one nice page of `src/main.rs` from each milestone, so the assessor can see your code without opening a laptop.
+- **Print a screenshot** of each project running in your terminal — for the music-theory CLI it's a coloured chord progression; for the world generator it's the ASCII map; for the synth it's the WAV file open in an audio player.
+- **Add a clear plastic A4 wallet** at the back containing a USB stick with the full repo and the three rendered `.wav` files. Some assessors will want to listen to the synth output.
+
+None of those are required — the session log + reflections + sign-off is enough on its own.
+
+---
+
+## "Do I need to print at all?"
+
+Technically no — DofE accepts digital evidence and many participants submit through eDofE. **But** in practice:
+
+- Most assessors are teachers / tutors who'd rather flip through a folder than navigate a repo.
+- Handwritten dates and notes are harder to fake than typed ones, which makes the assessor's verification job easier.
+- A physical binder is something to keep — it's a nice artefact at the end of three months of work.
+
+If you're confident your assessor will review digitally (e.g. they're a software engineer themselves), you can skip printing. If in doubt, print. It costs about £2 in paper.

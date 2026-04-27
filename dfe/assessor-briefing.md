@@ -37,33 +37,36 @@ Rust is a modern, industrial programming language used at companies including Mi
 
 ---
 
-## What you'll find in this `dfe/` folder
+## What you'll find in this binder
 
-| File | What it is |
+> **Note to the assessor:** this folder is designed to be reviewed as a **printed A4 binder**, not on screen. The participant should have handed you a physical ring binder containing the documents below. If they've handed you a USB stick or a link, ask them to print it — most of these documents are explicitly designed to be printed (e.g. the session log has hand-fillable form fields). You do **not** need to open a computer to do this assessment.
+
+| Section in the binder | What it is |
 |---|---|
-| `session-log.md` | A running log — one short entry per session, 24 in total. The participant fills these in within a day of each session. |
-| `milestone-1-reflection.md` <br>`milestone-2-reflection.md` <br>`milestone-3-reflection.md` | One longer reflection (3–5 paragraphs) after each of the three projects. |
-| `participant-statement.md` | The participant's final personal statement, written from the template. |
-| `progress-summary.md` | A pre-built table mapping each session to the concept and evidence. Useful if you want a quick map of the whole course. |
+| **Session Log** | A running log — one short form per session, 24 in total. Dates and short hand-written or typed notes. |
+| **Milestone Reflections (× 3)** | One longer reflection (3–5 paragraphs) after each of the three projects. |
+| **Project READMEs (× 3)** | A printed description of each project the participant built, so you can see what was made without running code. |
+| **Participant Statement** | The participant's final personal statement (1–2 pages). |
+| **Progress Summary** | A pre-built one-page table mapping each session to the concept and evidence. Useful as a map. |
+| **This briefing + sign-off form** | The last page is the form for you to sign at the end. |
 
-You'll also find three project folders elsewhere in the repository — `month-1/project/`, `month-2/project/`, `month-3/project/` — each containing the working code for that milestone.
+If you want to see the actual code, the participant can demo it on their laptop in 5 minutes — but you don't need to.
 
 ---
 
 ## What to look for as evidence
 
-You're checking three things.
+You're checking three things. **All three answers can come from the printed binder alone** — flip through the pages.
 
 ### 1. Was the activity genuinely undertaken regularly?
 
-- **Open `session-log.md`.** Are there 24 entries with plausible dates spread across the period?
-- **Open the three milestone reflections.** Are they written in a personal voice, with specific details a generic person couldn't fake?
-- **Open the project folders** (e.g. `month-1/project/music-theory-cli/`). Is there code there? Does it look like a real project, with multiple files?
-- **(Optional, if you're comfortable.)** In a terminal, run `git log --oneline` inside the project folder. Each commit is a timestamped piece of activity.
+- **Flip through the 24 session-log pages.** Are there 24 of them? Are the **dates** plausibly spread across 12 weeks (i.e. roughly two per week, not all batched into one weekend)?
+- **Flip through the three milestone reflections.** Are they written in a personal voice with specific details a generic template wouldn't contain?
+- **(Optional)** Ask the participant to open one of the project folders on their laptop and show you the code is real (multiple files, not a single page of pseudocode).
 
 ### 2. Has the participant demonstrably improved?
 
-- Compare the **first session log** (Session 1) with one of the **later ones** (e.g. Session 20+). The vocabulary, complexity of what's described, and confidence should be visibly different.
+- Compare the **first session log page** (Session 1) with one of the **later ones** (e.g. Session 20+). The vocabulary, complexity of what's described, and confidence should be visibly different.
 - Compare the **three milestone reflections**. Each project is more ambitious than the last:
   - Milestone 1: a few hundred lines, single file, no external libraries
   - Milestone 2: hundreds of lines across multiple types, with structured data
@@ -72,7 +75,7 @@ You're checking three things.
 
 ### 3. Has the participant reflected meaningfully?
 
-- Read 3–4 random session log entries. Are they thoughtful? Do they describe specific struggles ("I couldn't get the borrow checker to accept this") rather than vague summaries ("It was good")?
+- Read 3–4 random session-log pages. Are they thoughtful? Do they describe specific struggles ("I couldn't get the borrow checker to accept this") rather than vague summaries ("It was good")?
 - Read the **participant statement** at the end. Is it in the participant's own voice? Does it describe genuine learning?
 
 If all three answers are *yes*, you have everything you need to sign off.
@@ -83,11 +86,11 @@ If all three answers are *yes*, you have everything you need to sign off.
 
 Three signals together are very strong evidence:
 
-- **Git commit history.** In the project folders, `git log` shows timestamped activity over the 12-week period. Faking this is far more effort than just doing the work.
+- **Handwritten dated entries** in the session log. Faking 24 dated entries by hand, with believable variation in handwriting, mood, and content, is far more effort than just doing the work.
 - **Specific, concrete struggles in the session logs.** A faked log says "I learned about loops". A genuine log says "I forgot that `for` doesn't need parentheses, like Python — wasted ten minutes on a syntax error."
 - **The work itself.** The three projects increase in difficulty. The final project is non-trivial — generating audio from raw bytes is real engineering.
 
-If you want, ask the participant to **demo one project to you live** (e.g. open a terminal, run `cargo run`, type a few inputs). That's the most direct verification.
+If you want, ask the participant to **demo one project to you live** (5 minutes — they open a terminal, type `cargo run`, you watch the output). That's the most direct verification and works well as a closing conversation.
 
 ---
 

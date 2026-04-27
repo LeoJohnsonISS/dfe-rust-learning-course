@@ -4,6 +4,25 @@ This folder turns the **DfE Rust Learning Course** into a complete evidence base
 
 > If you are the participant, a parent or guardian, or the assessor: this is the folder to read first.
 
+## Quick orientation by role
+
+- **Participant** — start with [`print-checklist.md`](./print-checklist.md), then [`session-log-printable.md`](./session-log-printable.md). Print the booklet, build a binder, fill it in as you go.
+- **Parent / guardian** — this folder + the printed binder are the evidence pack. You don't need to do anything; you just need to know where it lives.
+- **Assessor** — read [`assessor-briefing.md`](./assessor-briefing.md). The participant should hand you a physical A4 binder, not a link to a website.
+
+## How this course is assessed
+
+The intended workflow is **paper-first**:
+
+1. The participant prints the session-log booklet at the start of the course.
+2. They handwrite (or type-and-print) one short entry after each session.
+3. Milestone reflections, the participant statement, and printed project READMEs are added to the binder as they're completed.
+4. At the end, the assessor reviews the **physical binder** — not the GitHub repo — and signs the form on the last page.
+
+This works because most assessors are teachers, tutors, or DofE leaders who would rather flip through a binder than navigate a code repository. It also makes the evidence harder to fake: 24 dated handwritten entries are not a thing you can knock out in an evening.
+
+> **Going fully digital?** It's allowed. If your assessor is comfortable reviewing files on screen and you'd rather not print, use [`session-log.md`](./session-log.md) instead and have the assessor read everything in this folder online. But the default recommendation is **print**.
+
 ---
 
 ## What the DofE Skill section requires
@@ -37,15 +56,16 @@ This course is designed so that completing it *automatically* satisfies all five
 | File | What it's for | Who fills it in |
 |---|---|---|
 | `README.md` | (You are here.) Plain-English overview. | — |
-| `session-log.md` | The main running activity log (one entry per session). | **Participant**, after each session |
+| `print-checklist.md` | What to print, when, and in what binder order. **Start here.** | **Participant**, before Session 1 |
+| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. **Primary evidence.** | **Participant** (in pen, after every session) |
+| `session-log.md` | Optional digital alternative to the printable. | **Participant** (only if not using the booklet) |
 | `session-log-template.md` | A blank template for a single session entry. | — (reference only) |
-| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. | **Participant** (in pen, optional) |
 | `milestone-1-reflection.md` | Reflection after the Month 1 mini-project. | **Participant**, after Session 8 |
 | `milestone-2-reflection.md` | Reflection after the Month 2 mini-project. | **Participant**, after Session 16 |
 | `milestone-3-reflection.md` | Reflection after the final project. | **Participant**, after Session 24 |
-| `assessor-briefing.md` | Plain-English brief for the assessor. | — (the assessor reads this) |
+| `assessor-briefing.md` | Plain-English brief for the assessor. **Print this last; it goes at the front of the binder.** | — (the assessor reads this) |
 | `participant-statement-template.md` | Template for the final personal statement. | **Participant**, after Session 24 |
-| `progress-summary.md` | Pre-built mapping of every session to its evidence. | — (auto-generated) |
+| `progress-summary.md` | Pre-built mapping of every session to its evidence. | — (reference only; print and bind for the assessor) |
 
 ---
 
@@ -53,11 +73,12 @@ This course is designed so that completing it *automatically* satisfies all five
 
 Three things, on a recurring rhythm.
 
-1. **After every session** (5–10 minutes): open `session-log.md`, find that session's entry, and fill in the four short fields.
-2. **After Sessions 8, 16, and 24**: complete the corresponding `milestone-N-reflection.md` (one page, 3–5 paragraphs).
-3. **After Session 24**: write the final personal statement using `participant-statement-template.md`. Send it, with the completed log and the three milestone reflections, to the assessor for sign-off.
+1. **Before Session 1**: read [`print-checklist.md`](./print-checklist.md), print the booklet, and put it in a slim A4 ring binder.
+2. **After every session** (5–10 minutes): open the binder, find that session's page, and fill in the four short fields by hand. Always write the date.
+3. **After Sessions 8, 16, and 24**: complete the corresponding `milestone-N-reflection.md` (one page, 3–5 paragraphs), print it, and add it to the binder.
+4. **After Session 24**: write the final personal statement using `participant-statement-template.md`, print it, and add it to the binder along with the printed assessor briefing. Hand the binder to the assessor for review and sign-off.
 
-That's it. Each session ends with a small reminder so you don't forget.
+That's it. Each session ends with a small reminder so you don't forget step 2.
 
 ---
 
@@ -65,10 +86,10 @@ That's it. Each session ends with a small reminder so you don't forget.
 
 Two things, both small.
 
-1. **Once at the start** (5 minutes): read `assessor-briefing.md` so you understand the setup.
-2. **At the end** (about 30–45 minutes): review the session log, the three projects, and the participant statement. Sign the form at the bottom of `assessor-briefing.md` and return it to the participant.
+1. **Once at the start** (5 minutes): read `assessor-briefing.md` so you understand the setup. The participant will print this and put it at the front of the binder.
+2. **At the end** (about 30–45 minutes): flip through the binder — session log, the three milestone reflections, the three project READMEs, and the participant statement. Sign the form at the bottom of the printed `assessor-briefing.md` and return the binder (or just the signed form) to the participant.
 
-The assessor does **not** need to know any Rust. The briefing explains what to look for.
+The assessor does **not** need to know any Rust, **does not need a computer**, and does not need to run any code. The briefing explains exactly what to look for.
 
 ---
 
@@ -84,15 +105,18 @@ The assessor should be someone who can confirm the work is genuine and reflect o
 
 ---
 
-## File evidence trail
+## Evidence trail — what's in the binder at the end
 
-After 24 sessions you will have:
+After 24 sessions you will have a single A4 ring binder containing:
 
-- **24 session log entries** (`dfe/session-log.md`)
-- **3 milestone reflection documents** (`dfe/milestone-N-reflection.md`)
-- **1 personal statement** (`dfe/participant-statement.md` — created from the template)
-- **3 working software projects** (`month-N/project/`) with git commit history
-- **1 assessor sign-off** (signed `dfe/assessor-briefing.md`)
-- **24 commits' worth of timestamped activity** in git history (or in the repo's `.git` log)
+- **Cover page** with participant name, dates, award level
+- **24 session-log forms**, dated and filled in by hand (or typed and printed)
+- **3 milestone reflection pages** — one after each project
+- **3 printed project READMEs** — `music-theory-cli`, `world-generator`, `midi-synth`
+- **1 participant personal statement** — printed
+- **1 progress summary** — one-page index of the whole course
+- **1 assessor briefing + signed sign-off form** — at the back
 
-That's a complete, self-contained evidence pack any DofE coordinator will recognise.
+Plus, on your laptop and on GitHub: the actual working code for all three projects, ready to demo if the assessor wants to see something running.
+
+That's a complete, self-contained evidence pack any DofE coordinator will recognise — and one your assessor can review in a single sitting without ever opening a computer.

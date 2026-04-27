@@ -5,9 +5,11 @@
 **Start date:** ______________________________
 **Target end date:** ______________________________
 
-This is the running activity log for the Skill section of your DofE Award. Fill in each session's entry within a day or two of finishing it — you'll forget the details otherwise. Each entry should take 5–10 minutes.
+# Session Log — Digital Version (Optional)
 
-If you prefer to write by hand, use [`session-log-printable.md`](./session-log-printable.md) instead and keep a physical folder.
+> **Most participants should use the printable booklet** — see [`session-log-printable.md`](./session-log-printable.md) and [`print-checklist.md`](./print-checklist.md). Assessors typically review a physical binder, not a git repository.
+>
+> This digital version exists as an alternative for participants who would rather type than handwrite. If you use it, **print the completed file** before handing the binder to your assessor.
 
 ---
 

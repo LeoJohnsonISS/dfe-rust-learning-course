@@ -1,4 +1,6 @@
-# Session Log — Printable Booklet
+# Session Log — Printable Booklet (Primary Evidence Document)
+
+> **This is the recommended way to keep your DofE log.** Most assessors will not browse a git repository. Print this booklet, fill in one form per session by hand, and hand the binder to your assessor at the end of the course.
 
 > **How to print this**
 >
@@ -8,7 +10,7 @@
 > 4. Set paper size to **A4**, layout **Portrait**.
 > 5. (Optional) Tick "Background graphics" so table lines render.
 >
-> Each session is on its own page. There's a cover page first. Once printed, three-hole-punch the pages and pop them in a slim ring binder — DofE coordinators love a physical folder alongside the digital evidence.
+> Each session is on its own page. There's a cover page first. Once printed, three-hole-punch the pages and pop them in a slim ring binder. See `print-checklist.md` for the full list of pages to print and the binder order.
 
 ---
 
