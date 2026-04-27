@@ -16,8 +16,11 @@ Chords: Cmaj  Dmin  Emin  Fmaj  Gmaj  Amin  Bdim
 
 ## Sessions
 
+> **Before Session 1**, work through [**Session 0 — Setup & GitHub**](./session-00/). It's a one-off, ~45-minute pre-flight that installs Rust, sets up your GitHub account, and walks you through forking and cloning the course repo. Not one of the 24 DofE sessions — just gets your tools ready.
+
 | # | Title | Concepts |
 |---|---|---|
+| 0 | [Setup & GitHub (pre-flight)](./session-00/) | `rustup`, `cargo`, `git`, fork → clone → commit → push |
 | 1 | [Why Rust? History, Setup, and the Speed Demo](./session-01/) | `cargo new`, `cargo run`, `fn main`, `println!` |
 | 2 | [Variables, Types, and Mutability](./session-02/) | `let`, `let mut`, scalar types, shadowing |
 | 3 | [Functions, Expressions, and Basic I/O](./session-03/) | `fn`, expressions, `std::io`, `.parse()` |

@@ -75,10 +75,10 @@ Step-by-step instructions for all three platforms are in [`SETUP.md`](./SETUP.md
 
 ## How to use this repo
 
-1. Read [`SETUP.md`](./SETUP.md) and get Rust working.
-2. If you're doing this for DofE, read [`dfe/README.md`](./dfe/README.md) and [`dfe/print-checklist.md`](./dfe/print-checklist.md) **before** Session 1, and print the booklet.
+1. **Pre-flight:** work through [`month-1/session-00/`](./month-1/session-00/) — install Rust, create a GitHub account, fork this repo, and make your first commit. ~45 minutes, one-off.
+2. If you're doing this for DofE, read [`dfe/README.md`](./dfe/README.md), [`dfe/print-checklist.md`](./dfe/print-checklist.md), and [`dfe/github-workflow.md`](./dfe/github-workflow.md) **before** Session 1, and decide whether to log on paper, in git, or both.
 3. Open [`month-1/README.md`](./month-1/README.md) and start at Session 1.
-4. After every session, fill in that session's page in your printed booklet (or [`dfe/session-log.md`](./dfe/session-log.md) if you're going digital).
+4. After every session, fill in that session's page in your printed booklet **or** edit `dfe/session-log.md` and `git commit` (or both — see [`dfe/github-workflow.md`](./dfe/github-workflow.md)).
 5. After each mini-project, complete the corresponding milestone reflection in `dfe/`.
 6. After Session 24, write your participant statement and have your assessor sign off.
 

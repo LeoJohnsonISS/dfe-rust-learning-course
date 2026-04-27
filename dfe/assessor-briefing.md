@@ -49,8 +49,11 @@ Rust is a modern, industrial programming language used at companies including Mi
 | **Participant Statement** | The participant's final personal statement (1–2 pages). |
 | **Progress Summary** | A pre-built one-page table mapping each session to the concept and evidence. Useful as a map. |
 | **This briefing + sign-off form** | The last page is the form for you to sign at the end. |
+| **Commit history printout** *(optional)* | If the participant chose the GitHub workflow, a one-page, dated, machine-generated list of every commit they made. Independent corroboration that the work was spread across the required period. |
 
 If you want to see the actual code, the participant can demo it on their laptop in 5 minutes — but you don't need to.
+
+> **If you'd like online corroboration (entirely optional).** Some participants will have used the *GitHub workflow* and will have included a printed commit-history page in the binder, plus a short URL like `github.com/<their-username>/dfe-rust-learning-course`. If you want to verify, click the link and look at the **commits** tab — you should see ~24+ commits dated across the required period. You don't need to read the code; the dates alone tell you the work was real and spread out. **You absolutely do not need to do this** — the binder is sufficient evidence on its own.
 
 ---
 

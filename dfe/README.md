@@ -6,9 +6,12 @@ This folder turns the **DfE Rust Learning Course** into a complete evidence base
 
 ## Quick orientation by role
 
-- **Participant** — start with [`print-checklist.md`](./print-checklist.md), then [`session-log-printable.md`](./session-log-printable.md). Print the booklet, build a binder, fill it in as you go.
+- **Participant** — there are two valid ways to keep your DofE log; both end with the same printed binder for the assessor.
+  - **Path A — paper.** Print the booklet up front, fill it in by hand. Start with [`print-checklist.md`](./print-checklist.md) and [`session-log-printable.md`](./session-log-printable.md).
+  - **Path B — fork-and-commit.** Use git as your working log; the GitHub commit history becomes a tamper-resistant timeline; print at the end. Start with [`github-workflow.md`](./github-workflow.md), and do the [Session 0 pre-flight](../month-1/session-00/) first.
+  - Not sure which? Path A is simpler. Path B teaches a real industry skill *as well as* Rust. You can switch between them mid-course.
 - **Parent / guardian** — this folder + the printed binder are the evidence pack. You don't need to do anything; you just need to know where it lives.
-- **Assessor** — read [`assessor-briefing.md`](./assessor-briefing.md). The participant should hand you a physical A4 binder, not a link to a website.
+- **Assessor** — read [`assessor-briefing.md`](./assessor-briefing.md). The participant should hand you a physical A4 binder, not a link to a website. (If they also point you at a GitHub link with a commit timeline, that's optional supporting evidence — you don't need to look at it.)
 
 ## How this course is assessed
 
@@ -56,9 +59,11 @@ This course is designed so that completing it *automatically* satisfies all five
 | File | What it's for | Who fills it in |
 |---|---|---|
 | `README.md` | (You are here.) Plain-English overview. | — |
-| `print-checklist.md` | What to print, when, and in what binder order. **Start here.** | **Participant**, before Session 1 |
-| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. **Primary evidence.** | **Participant** (in pen, after every session) |
-| `session-log.md` | Optional digital alternative to the printable. | **Participant** (only if not using the booklet) |
+| `print-checklist.md` | Path A: what to print, when, and in what binder order. | **Participant** (Path A) |
+| `github-workflow.md` | Path B: how to fork, clone, and use git as your log. | **Participant** (Path B) |
+| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. | **Participant** (Path A) |
+| `session-log.md` | Markdown log; edit-and-commit version of the same data. | **Participant** (Path B) |
+| `scripts/print-commit-history.sh` | Shell script that produces a printable, dated commit-history page from your fork. | **Participant** (Path B), at the end |
 | `session-log-template.md` | A blank template for a single session entry. | — (reference only) |
 | `milestone-1-reflection.md` | Reflection after the Month 1 mini-project. | **Participant**, after Session 8 |
 | `milestone-2-reflection.md` | Reflection after the Month 2 mini-project. | **Participant**, after Session 16 |
