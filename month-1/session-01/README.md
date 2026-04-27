@@ -71,7 +71,14 @@ print(f"Pi ≈ {result:.6f}")
 print(f"Time: {elapsed:.2f} seconds")
 ```
 
-Run it: `python pi_python.py`. On a modern PC this takes roughly **35–60 seconds**.
+Run it (from the repo root):
+
+```bash
+cd month-1/session-01/examples
+python3 pi_python.py
+```
+
+On a modern PC this takes roughly **35–60 seconds**.
 
 #### The Rust version (`examples/pi_rust/`)
 
