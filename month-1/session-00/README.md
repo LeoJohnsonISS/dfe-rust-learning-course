@@ -1,12 +1,13 @@
 # Session 0 — Setup & GitHub (Pre-flight)
 
-> **Read this before Session 1.** This isn't one of the 24 numbered DofE sessions — it's a one-off prerequisite to get your tools working. Budget about 45–60 minutes. You won't write any Rust here, but by the end you'll have a working Rust toolchain, a GitHub account, your own fork of the course, and your first commit.
+> **Read this before Session 1.** This isn't one of the 24 numbered DofE sessions — it's a one-off prerequisite to get your tools working. Budget about 60–75 minutes. You won't write any Rust here, but by the end you'll have a working Rust toolchain, an editor (VS Code) configured for Rust, a GitHub account, your own fork of the course, and your first commit.
 
 ---
 
 ## What You'll Learn
 
 - What **Rust**, **rustup**, and **cargo** are, and why they come together
+- How to install **VS Code** and the **rust-analyzer** extension — the editor combo most professional Rust developers use
 - What **git** and **GitHub** are, and why almost every professional developer uses them
 - How to **fork** a repository — make your own copy of someone else's project
 - How to **clone** that fork to your laptop so you can edit it
@@ -114,7 +115,57 @@ git config --global user.email "you@example.com"
 git config --global init.defaultBranch main
 ```
 
-### Part 5 — Fork the course repo (3 minutes)
+### Part 5 — Install VS Code and the rust-analyzer extension (10 minutes)
+
+You can edit Rust code in any text editor, but **Visual Studio Code with the rust-analyzer extension** is the de-facto standard. It gives you autocomplete, type-on-hover, instant red-squiggle error feedback, jump-to-definition, and automatic formatting — the same tooling professional Rust developers use every day. Setting it up now means the rest of the course is far less frustrating.
+
+> **Why VS Code rather than just Notepad / TextEdit?** Plain text editors don't know that Rust exists. They can't tell you when you've made a typo, can't show you what a function does when you hover it, and can't run your code. With rust-analyzer, you'll see most mistakes *before* you even hit save.
+
+#### 5a. Install VS Code
+
+- **macOS / Windows:** download from <https://code.visualstudio.com/> and run the installer. On macOS, drag the app into `/Applications`.
+- **Linux (Debian / Ubuntu):**
+  ```bash
+  sudo snap install code --classic
+  ```
+  (Or follow [the official Linux instructions](https://code.visualstudio.com/docs/setup/linux) if you don't use snap.)
+
+Verify by opening it from your applications menu. You should see a "Welcome" tab.
+
+#### 5b. Install the rust-analyzer extension
+
+1. Open VS Code.
+2. Click the **Extensions** icon in the left-hand sidebar (it looks like four squares with one detached), or press `⇧⌘X` / `Ctrl+Shift+X`.
+3. Type `rust-analyzer` into the search box.
+4. Click **Install** on the entry by **The Rust Programming Language** (the publisher's name should match exactly — there are imitators).
+
+> **Don't install the older "Rust" extension** with the orange crab logo. It's deprecated. The one you want is `rust-analyzer` from "The Rust Programming Language".
+
+While you're there, two more highly recommended extensions:
+
+- **Even Better TOML** — syntax highlighting for `Cargo.toml` files.
+- **CodeLLDB** — lets you set breakpoints and step through Rust code with the debugger (you won't need this until Month 2, but install it now).
+
+#### 5c. Open the course folder in VS Code
+
+You haven't cloned the repo yet (that's Part 7), so for now just verify VS Code launches cleanly.
+
+After Part 7, you'll open the cloned repo with **File → Open Folder…** and pick `dfe-rust-learning-course`. The whole project will appear in the **Explorer** panel on the left. Clicking any file (e.g. `month-1/session-01/README.md` or `src/main.rs`) opens it in a tab.
+
+A few VS Code shortcuts worth memorising — they'll save you hours over the course:
+
+| Shortcut (Mac) | Shortcut (Windows/Linux) | What it does |
+|---|---|---|
+| `⌘P` | `Ctrl+P` | Quick-open a file by name (start typing — fuzzy search) |
+| `⌘\`` | `Ctrl+\`` | Open / close the integrated terminal (run `cargo` here without leaving the editor) |
+| `⌘B` | `Ctrl+B` | Toggle the Explorer sidebar |
+| `F12` | `F12` | Jump to the definition of whatever your cursor is on |
+| `⇧⌥F` | `Shift+Alt+F` | Format the current file (uses `rustfmt`) |
+| `⌘.` | `Ctrl+.` | Open the "Quick Fix" menu when rust-analyzer underlines an error — often a one-click fix |
+
+> **The integrated terminal is your best friend.** Press `⌘\`` (or `Ctrl+\``) and a terminal opens at the bottom of VS Code, already in the project folder. Every `cargo run` command in this course can be run there — no need to switch windows.
+
+### Part 6 — Fork the course repo (3 minutes)
 
 1. In your browser, open **<https://github.com/Zesty0wl/dfe-rust-learning-course>**.
 2. Click the **Fork** button in the top right.
@@ -125,7 +176,7 @@ You now have your own copy at `https://github.com/<your-username>/dfe-rust-learn
 
 > **What just happened?** A fork is a *server-side copy*. GitHub remembers your fork is descended from the original, which means later you can pull in any updates the original repo gets (e.g. bug fixes to the example code). Forking is how almost all open-source contribution starts.
 
-### Part 6 — Clone your fork to your laptop (5 minutes)
+### Part 7 — Clone your fork to your laptop (5 minutes)
 
 "Clone" means download a working copy you can edit. In a terminal:
 
@@ -142,17 +193,24 @@ ls
 # README.md  SETUP.md  dfe  month-1  month-2  month-3  rust-course-prd.md  ...
 ```
 
-### Part 7 — Make your first edit and commit (10 minutes)
+Now open the cloned folder in VS Code:
 
-Open `dfe/session-log.md` in your editor of choice (VS Code, nano, whatever) and find this line near the top:
+- **From the terminal:** `code .` (the dot means "the current folder"). If `code` isn't recognised, open VS Code first, then choose **View → Command Palette… → "Shell Command: Install 'code' command in PATH"**, then try again.
+- **Or** in VS Code: **File → Open Folder…** and select `dfe-rust-learning-course`.
+
+The whole repo should appear in the Explorer sidebar. The first time you open a Rust file (any `.rs`), rust-analyzer will spend 10–30 seconds indexing — you'll see "rust-analyzer: Loading…" in the bottom status bar. Wait for it to finish before editing.
+
+### Part 8 — Make your first edit and commit (10 minutes)
+
+In VS Code's Explorer sidebar, click `dfe/` to expand it, then click `session-log.md` to open it. Find this line near the top:
 
 ```
 | Participant name | _Your Name Here_ |
 ```
 
-Change `_Your Name Here_` to your actual name. Save the file.
+Change `_Your Name Here_` to your actual name. Save with `⌘S` / `Ctrl+S`.
 
-Now stage, commit, and push the change:
+Now open the integrated terminal (`⌘\`` / `Ctrl+\``) and stage, commit, and push the change:
 
 ```bash
 git add dfe/session-log.md
@@ -165,22 +223,23 @@ The first time you push, your terminal may pop up a browser window asking you to
 
 Refresh your fork's page on github.com — you should see your commit at the top of the file history. **That's your first commit. You've just done what professional developers do every day.**
 
-### Part 8 — Confirm the toolchain works end to end (5 minutes)
+### Part 9 — Confirm the toolchain works end to end (5 minutes)
 
-Run a small Rust program from the course to make sure everything's wired up:
+Run a small Rust program from the course to make sure everything's wired up. From the **repo root** (in VS Code's integrated terminal):
 
 ```bash
-cd month-1/session-01/examples/hello_world
-cargo run
+cd month-1/session-01/examples/pi_rust
+cargo run --release
 ```
 
-You should see Rust download a few things on first run, then print a "Hello, world!" greeting. If you see that, you're done. Close the terminal and take a break — Session 1 is next.
+You should see Rust download a few things on first run, compile for a few seconds, then print a Pi estimate. If you see that, you're done. Close the terminal and take a break — Session 1 is next.
 
 ---
 
 ## Concepts Covered
 
 - **Toolchain installation** — `rustup`, `rustc`, `cargo`
+- **VS Code + rust-analyzer** — the standard Rust editor setup
 - **GitHub account creation**
 - **git basics** — `config`, `clone`, `add`, `commit`, `push`, `status`
 - **Forking** — making your own server-side copy of a repo
@@ -195,9 +254,10 @@ You're ready for Session 1 if all of these are true:
 - [ ] `rustc --version` prints a version
 - [ ] `cargo --version` prints a version
 - [ ] `git --version` prints a version
+- [ ] VS Code opens, and the **rust-analyzer** extension is listed under Extensions as Installed
 - [ ] You can see your fork at `https://github.com/<your-username>/dfe-rust-learning-course`
 - [ ] You've made and pushed at least one commit
-- [ ] `cargo run` worked in the `hello_world` example folder
+- [ ] `cargo run --release` worked in the `pi_rust` example folder
 
 If any of those fail, fix them before moving on. Asking for help is fine — your assessor would much rather you get unstuck early than struggle silently for two months.
 

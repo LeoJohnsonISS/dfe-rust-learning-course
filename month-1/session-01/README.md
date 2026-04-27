@@ -150,7 +150,7 @@ What just happened?
 - `cargo new hello_world` created a folder with a `Cargo.toml` (project metadata) and a `src/main.rs` (your code).
 - `cargo run` invoked the compiler and then ran the resulting binary.
 
-Open `src/main.rs`. It looks like this:
+Open `src/main.rs` in VS Code (if it's not already showing in the Explorer sidebar, use **File → Open Folder…** to open the `hello_world` folder you just created). It looks like this:
 
 ```rust
 fn main() {
