@@ -1,5 +1,7 @@
 # Session 21 — Audio Engine: Waveforms, ADSR, and your first WAV with `hound`
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 > *"This week we replace our hand-rolled WAV writer with a real crate, then build the heart of a synthesiser: an oscillator with an envelope."*
 
 ## What You'll Learn

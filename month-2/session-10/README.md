@@ -1,5 +1,7 @@
 # Session 10: Enums with Data and `Option<T>`
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to create enums where each variant carries different data — Rust's killer feature for modelling things that can be one of several distinct shapes. And then `Option<T>`, which is how Rust handles "maybe there's a value, maybe not" without ever using `null`.

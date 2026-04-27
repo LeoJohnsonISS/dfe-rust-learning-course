@@ -1,5 +1,7 @@
 # Session 11: Collections — `Vec` and `HashMap`
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to store *many* values, not just one. `Vec<T>` is Rust's growable list — what `list` is in Python or `ArrayList` is in Java. `HashMap<K, V>` is the dictionary / hash table. You'll use both constantly for the rest of the course.

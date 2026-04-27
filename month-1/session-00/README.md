@@ -1,5 +1,7 @@
 # Session 0 — Setup & GitHub (Pre-flight)
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 > **Read this before Session 1.** This isn't one of the 24 numbered DofE sessions — it's a one-off prerequisite to get your tools working. Budget about 60–75 minutes. You won't write any Rust here, but by the end you'll have a working Rust toolchain, an editor (VS Code) configured for Rust, a GitHub account, your own fork of the course, and your first commit.
 
 ---

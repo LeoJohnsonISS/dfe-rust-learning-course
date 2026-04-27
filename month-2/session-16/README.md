@@ -1,5 +1,7 @@
 # Session 16: Mini-Project Build Part 2 — Render and Polish
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Build
 
 Finish `world-generator`:

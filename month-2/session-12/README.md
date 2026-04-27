@@ -1,5 +1,7 @@
 # Session 12: Iterators and Closures (Introduction)
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 Iterators are the difference between writing Rust like an old C programmer and writing it like someone who actually likes the language. They're concise, fast (zero-cost — the compiler unrolls them to the same machine code as a hand-written `for` loop), and chainable. You'll also meet **closures** — anonymous functions you can pass around as values.

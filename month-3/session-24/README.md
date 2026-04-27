@@ -1,5 +1,7 @@
 # Session 24 — Polyphony, `--chord` Mode, and a Retrospective
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 > *"Final session. Today we polish the CLI, add chord mode, make sure polyphony works properly, and reflect on the road from `Hello, world!` to a working synthesiser."*
 
 ## What You'll Learn

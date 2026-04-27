@@ -1,5 +1,7 @@
 # Session 9: Structs and Methods
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to bundle related data into a single named type — a `struct` — and attach behaviour to it with `impl` blocks. This is the moment where Rust starts to feel like it's modelling *real things*, not just shuffling numbers.

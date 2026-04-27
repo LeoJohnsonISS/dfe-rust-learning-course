@@ -1,5 +1,7 @@
 # Session 1: Why Rust? History, Setup, and the Speed Demo
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 Why Rust exists, why it's worth your time, and how to get a "Hello, World!" running on your own machine. By the end of this session you'll have written and run two Rust programs and watched Rust beat Python by roughly a hundred to one in a fair race.
@@ -16,7 +18,7 @@ It has been voted the **most loved programming language** on Stack Overflow's an
 - `cargo new` to scaffold a project
 - The structure of a tiny Rust program (`fn main`, `println!`)
 - `cargo run` to build and run
-- Why compiled languages are dramatically faster than interpreted ones
+- Why [compiled](../../GLOSSARY.md#compiled-language) languages are dramatically faster than [interpreted](../../GLOSSARY.md#interpreted-language) ones
 
 ## Building Towards `music-theory-cli`
 
@@ -121,9 +123,9 @@ On the same machine: **under 1 second**, and very often under half a second.
 >
 > Three reasons, mostly:
 >
-> 1. **Compiled vs interpreted.** Rust is translated to native machine code ahead of time. Python interprets your source one line at a time, every time you run it.
-> 2. **No object overhead.** In Python every number is a wrapped object on the heap. In Rust an `f64` is just 8 bytes of memory the CPU loves.
-> 3. **No GIL.** Python's Global Interpreter Lock means even multi-threaded Python often runs on one core. Rust has no such limitation (we're not even using threads here — but it matters when you do).
+> 1. **[Compiled](../../GLOSSARY.md#compiled-language) vs [interpreted](../../GLOSSARY.md#interpreted-language).** Rust is translated to native [machine code](../../GLOSSARY.md#machine-code) ahead of time. Python interprets your source one line at a time, every time you run it.
+> 2. **No object overhead.** In Python every number is a wrapped object on the [heap](../../GLOSSARY.md#stack-vs-heap). In Rust an [`f64`](../../GLOSSARY.md#floating-point-number-f32-f64) is just 8 bytes of memory the CPU loves.
+> 3. **No [GIL](../../GLOSSARY.md#global-interpreter-lock-gil).** Python's Global Interpreter Lock means even multi-threaded Python often runs on one core. Rust has no such limitation (we're not even using [threads](../../GLOSSARY.md#thread) here — but it matters when you do).
 >
 > Same algorithm. Same machine. Different orders of magnitude. Welcome to systems programming.
 
@@ -194,7 +196,7 @@ fn main() {
 Three new things:
 
 - `let semitones_per_octave = 12;` — declare a variable.
-- Variables in Rust are **immutable by default**. We'll cover `mut` next session.
+- Variables in Rust are **[immutable](../../GLOSSARY.md#immutable) by default**. We'll cover `mut` next session.
 - The `{}` in the format string is a placeholder filled in by the values that follow.
 
 Run it. You should see `A 4-octave keyboard has 48 notes.` (Sound right? A piano has 88 keys across 7+ octaves; we'll build up to a full piano in Session 4.)

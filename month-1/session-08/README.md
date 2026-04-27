@@ -1,5 +1,7 @@
 # Session 8: Mini-Project Build Part 2 — Chord Progressions and Polish
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 Second project session. Today you complete `music-theory-cli` and earn **Milestone 1** of your DofE evidence pack.
 
 ## Goal

@@ -1,5 +1,7 @@
 # Session 7: Mini-Project Build Part 1 — Scale Generator
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 This is a **project session**, not a teaching session. There's no new material — today is about putting together everything from Sessions 1–6 into a working tool.
 
 ## Goal

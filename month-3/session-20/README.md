@@ -1,5 +1,7 @@
 # Session 20: Generics and Advanced Traits
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to write code once that works for *any* type that meets your requirements. Generics, trait bounds, `impl Trait` shorthand, dynamic dispatch with `Box<dyn Trait>`, and just enough about lifetimes to read compiler errors. By the end you can explain *why* `Vec<T>` is one type that works for any `T`.

@@ -1,5 +1,7 @@
 # Session 23 — Live MIDI: `midir`, `cpal`, and Threads with `mpsc`
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 > *"This week the program plays in real time. Press a key on a real MIDI keyboard, hear it through real speakers. Welcome to systems programming."*
 
 ## What You'll Learn

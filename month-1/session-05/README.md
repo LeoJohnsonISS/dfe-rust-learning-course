@@ -1,5 +1,7 @@
 # Session 5: Pattern Matching and `match`
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to use `match` — Rust's most powerful control-flow construct. By the end of today you'll have written the function that maps any MIDI note number to its note name, which is a literal building block of the mini-project.

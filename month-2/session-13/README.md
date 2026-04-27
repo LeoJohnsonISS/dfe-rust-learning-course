@@ -1,5 +1,7 @@
 # Session 13: Error Handling
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How Rust handles things going wrong without exceptions. The `Result<T, E>` type, the `?` operator that makes error propagation painless, custom error enums, and the trick of returning `Result` from `main()` itself.

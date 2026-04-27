@@ -1,5 +1,7 @@
 # Session 15: Mini-Project Build Part 1 — World Core
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Build
 
 The generation engine for `world-generator`. By the end of this session you'll have:

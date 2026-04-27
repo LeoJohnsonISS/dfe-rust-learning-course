@@ -1,5 +1,7 @@
 # Session 6: Enums and Strings
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to define your own types with `enum`, the difference between `String` and `&str` (and why Rust has both), and a quick preview of `Vec<T>` so you can return a list of notes.

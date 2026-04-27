@@ -1,5 +1,7 @@
 # Session 22 — Parsing MIDI Files with `midly` and Mixing Voices
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 > *"Today we teach the synth to play music — actual songs, parsed from real `.mid` files."*
 
 ## What You'll Learn

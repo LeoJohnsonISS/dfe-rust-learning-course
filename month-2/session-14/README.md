@@ -1,5 +1,7 @@
 # Session 14: Traits
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 Traits are Rust's answer to interfaces / abstract base classes — a way to say "any type that can do X". Once you grasp traits, the standard library starts to make sense (everything is built on them) and your own code becomes vastly more reusable.

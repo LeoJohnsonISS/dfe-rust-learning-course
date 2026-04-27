@@ -1,5 +1,7 @@
 # Session 4: Control Flow
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to make decisions (`if`/`else`), how to repeat (`loop`, `while`, `for`), and how Rust loops can return values. We'll print an ASCII piano keyboard to put it all together.

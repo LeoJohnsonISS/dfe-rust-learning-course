@@ -1,5 +1,7 @@
 # Session 18: File I/O and Binary Data
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to read and write files in Rust, both text and binary. We'll go a step further than reading text — we'll **write a valid WAV audio file from scratch, using only the standard library**, that plays in any media player.

@@ -82,7 +82,7 @@ Step-by-step instructions for all three platforms are in [`SETUP.md`](./SETUP.md
 5. After each mini-project, complete the corresponding milestone reflection in `dfe/`.
 6. After Session 24, write your participant statement and have your assessor sign off.
 
-Get stuck? Each session has a `solution/` or `examples/` folder showing the working answer.
+Get stuck? Each session has a `solution/` or `examples/` folder showing the working answer. Don't recognise a term? The [**GLOSSARY**](./GLOSSARY.md) explains every piece of jargon used in the course (compiled, immutable, borrow, trait, GIL, monte carlo, MIDI, …) in plain English with links for further reading.
 
 ---
 

@@ -71,6 +71,7 @@ This course is designed so that completing it *automatically* satisfies all five
 | `assessor-briefing.md` | Plain-English brief for the assessor. **Print this last; it goes at the front of the binder.** | — (the assessor reads this) |
 | `participant-statement-template.md` | Template for the final personal statement. | **Participant**, after Session 24 |
 | `progress-summary.md` | Pre-built mapping of every session to its evidence. | — (reference only; print and bind for the assessor) |
+| [`../GLOSSARY.md`](../GLOSSARY.md) | Plain-English definitions for every technical term used in the course (compiled, immutable, borrow, GIL, MIDI, …). | — (reference only) |
 
 ---
 

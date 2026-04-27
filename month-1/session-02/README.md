@@ -1,20 +1,22 @@
 # Session 2: Variables, Types, and Mutability
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How Rust thinks about data: declaring variables, choosing types, when (and how) values are allowed to change, and what a "12th root of two" has to do with the white key next to A on a piano.
 
 ## The Big Idea
 
-Rust gives every variable two properties at birth: a **type** (what kind of thing it is) and a **mutability** (whether you're allowed to change it). Most other languages make everything mutable by default. Rust flips that. **Immutability is the default**, and you opt into mutation with `mut`. This sounds restrictive — and that's the point. The compiler can reason much more confidently about code that doesn't randomly change underneath it.
+Rust gives every variable two properties at birth: a **[type](../../GLOSSARY.md#type--type-system)** (what kind of thing it is) and a **mutability** (whether you're allowed to change it). Most other languages make everything [mutable](../../GLOSSARY.md#mutable) by default. Rust flips that. **[Immutability](../../GLOSSARY.md#immutable) is the default**, and you opt into mutation with `mut`. This sounds restrictive — and that's the point. The compiler can reason much more confidently about code that doesn't randomly change underneath it.
 
 ## Concepts Covered
 
 - `let` and `let mut`
-- Scalar types: `i32`, `u64`, `f64`, `bool`, `char`
+- Scalar types: `i32`, `u64`, [`f64`](../../GLOSSARY.md#floating-point-number-f32-f64), `bool`, `char`
 - Type inference vs explicit annotations
 - **Shadowing** — a Rust-specific trick that looks like mutation but isn't
-- Integer overflow in debug vs release builds
+- [Integer overflow](../../GLOSSARY.md#integer-overflow) in debug vs release builds
 - Numeric literals: `1_000_000`, `0xff`, `0b1010`, `3.14_f64`
 
 ## Building Towards `music-theory-cli`
@@ -45,7 +47,7 @@ fn main() {
 
 Run it: `cargo run`. You'll see `A4 is 440 Hz`.
 
-What's the type of `a4_frequency`? Rust **inferred** it from the literal `440.0` — that decimal point makes it an `f64` (a 64-bit floating-point number). If you want to spell it out:
+What's the type of `a4_frequency`? Rust **[inferred](../../GLOSSARY.md#type-inference)** it from the literal `440.0` — that decimal point makes it an `f64` (a 64-bit floating-point number). If you want to spell it out:
 
 ```rust
 let a4_frequency: f64 = 440.0;

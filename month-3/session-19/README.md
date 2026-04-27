@@ -1,5 +1,7 @@
 # Session 19: Closures and Iterators (Deep Dive)
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 You met closures and iterators in Session 12. Today you go *below the surface*: the three closure traits (`Fn`, `FnMut`, `FnOnce`), the `move` keyword, more iterator adaptors (`zip`, `chain`, `flat_map`, `take`, `skip`), and the holy grail — **writing your own iterator**.

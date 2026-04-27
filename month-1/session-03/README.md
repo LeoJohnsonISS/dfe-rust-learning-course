@@ -1,5 +1,7 @@
 # Session 3: Functions, Expressions, and Basic I/O
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How to break code into reusable **functions**, the difference between **expressions** and **statements** (a Rust quirk that's actually wonderful once you see it), and how to read input from the keyboard.

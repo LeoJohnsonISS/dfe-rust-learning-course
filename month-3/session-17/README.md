@@ -1,5 +1,7 @@
 # Session 17: The Ecosystem — Modules, Crates, and Cargo
 
+> 📖 **Stuck on a term?** Words like *immutable*, *compiler*, *borrow*, *trait* etc. are all defined in plain English in the [GLOSSARY.md](../../GLOSSARY.md) at the repo root.
+
 ## What You'll Learn
 
 How real Rust projects are organised. Up to now everything has lived in `src/main.rs`. That's fine for one-file demos but not for anything serious. Today: split code across files with **modules**, control visibility with **`pub`**, bring names into scope with **`use`**, and pull in third-party libraries (**crates**) from `crates.io`.
