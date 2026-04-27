@@ -1,6 +1,6 @@
-# Learn Rust with Leo
+# DfE Rust Learning Course
 
-A 24-session, 12-week Rust programming course built around music, Minecraft, and a bit of maths. Designed as a complete evidence pack for the **Duke of Edinburgh Award (DofE) Skill section** at any level.
+A 24-session, 12-week Rust programming course built around music, Minecraft, and a bit of maths. Designed as a complete evidence pack for the **Duke of Edinburgh Award (DofE) Skill section** at any level — usable by any DofE participant aged ~14+.
 
 > "Other languages let you make mistakes. Rust makes the compiler your co-pilot."
 
@@ -9,8 +9,8 @@ A 24-session, 12-week Rust programming course built around music, Minecraft, and
 ## Who this course is for
 
 - Beginner-to-intermediate programmers (some prior exposure to Python, JavaScript, or similar helps but isn't required)
-- Aimed at a 15-year-old learner with interests in **music**, **Minecraft**, and **maths**
-- Suitable as a structured 12-week skill activity for the **Duke of Edinburgh Award**
+- Pitched at a curious teenage learner; examples lean on **music**, **Minecraft**, and **maths** as familiar territory, but no specialist knowledge is assumed
+- Suitable as a structured 12-week skill activity for the **Duke of Edinburgh Award** at Bronze, Silver, or Gold level
 
 You don't need to be a maths whiz or own a MIDI keyboard. The MIDI keyboard projects in Month 3 have file-based fallbacks.
 

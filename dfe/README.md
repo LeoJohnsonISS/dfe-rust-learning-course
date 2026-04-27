@@ -1,8 +1,8 @@
 # Duke of Edinburgh Award — Skill Section Pack
 
-This folder turns the **Learn Rust with Leo** course into a complete evidence base for the **Duke of Edinburgh (DofE) Skill section** at any award level (Bronze, Silver, or Gold).
+This folder turns the **DfE Rust Learning Course** into a complete evidence base for the **Duke of Edinburgh (DofE) Skill section** at any award level (Bronze, Silver, or Gold).
 
-> If you are Leo, your parents, or your assessor: this is the folder to read first.
+> If you are the participant, a parent or guardian, or the assessor: this is the folder to read first.
 
 ---
 
@@ -37,19 +37,19 @@ This course is designed so that completing it *automatically* satisfies all five
 | File | What it's for | Who fills it in |
 |---|---|---|
 | `README.md` | (You are here.) Plain-English overview. | — |
-| `session-log.md` | The main running activity log (one entry per session). | **Leo**, after each session |
+| `session-log.md` | The main running activity log (one entry per session). | **Participant**, after each session |
 | `session-log-template.md` | A blank template for a single session entry. | — (reference only) |
-| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. | **Leo** (in pen, optional) |
-| `milestone-1-reflection.md` | Reflection after the Month 1 mini-project. | **Leo**, after Session 8 |
-| `milestone-2-reflection.md` | Reflection after the Month 2 mini-project. | **Leo**, after Session 16 |
-| `milestone-3-reflection.md` | Reflection after the final project. | **Leo**, after Session 24 |
+| `session-log-printable.md` | Print-friendly A4 booklet, one form per session. | **Participant** (in pen, optional) |
+| `milestone-1-reflection.md` | Reflection after the Month 1 mini-project. | **Participant**, after Session 8 |
+| `milestone-2-reflection.md` | Reflection after the Month 2 mini-project. | **Participant**, after Session 16 |
+| `milestone-3-reflection.md` | Reflection after the final project. | **Participant**, after Session 24 |
 | `assessor-briefing.md` | Plain-English brief for the assessor. | — (the assessor reads this) |
-| `participant-statement-template.md` | Template for the final personal statement. | **Leo**, after Session 24 |
+| `participant-statement-template.md` | Template for the final personal statement. | **Participant**, after Session 24 |
 | `progress-summary.md` | Pre-built mapping of every session to its evidence. | — (auto-generated) |
 
 ---
 
-## What Leo needs to do
+## What the participant needs to do
 
 Three things, on a recurring rhythm.
 
@@ -66,7 +66,7 @@ That's it. Each session ends with a small reminder so you don't forget.
 Two things, both small.
 
 1. **Once at the start** (5 minutes): read `assessor-briefing.md` so you understand the setup.
-2. **At the end** (about 30–45 minutes): review the session log, the three projects, and the participant statement. Sign the form at the bottom of `assessor-briefing.md` and return it to Leo.
+2. **At the end** (about 30–45 minutes): review the session log, the three projects, and the participant statement. Sign the form at the bottom of `assessor-briefing.md` and return it to the participant.
 
 The assessor does **not** need to know any Rust. The briefing explains what to look for.
 
@@ -80,7 +80,7 @@ Per DofE rules, the assessor **must not** be a parent or guardian. Suitable peop
 - A DofE leader at school
 - A family friend or relative with a technical background
 
-The assessor should be someone who can confirm the work is genuine and reflect on Leo's progress in their own words.
+The assessor should be someone who can confirm the work is genuine and reflect on the participant's progress in their own words.
 
 ---
 

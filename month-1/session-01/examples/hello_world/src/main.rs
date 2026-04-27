@@ -1,6 +1,6 @@
 fn main() {
     println!("Hello, world!");
-    println!("My name is Leo.");
+    println!("My name is Alex.");
     println!("I am learning Rust.");
 
     let semitones_per_octave = 12;

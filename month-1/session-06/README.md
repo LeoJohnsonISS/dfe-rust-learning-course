@@ -120,9 +120,9 @@ fn greet(name: &str) {
 }
 
 fn main() {
-    greet("Leo");                       // ✅ &'static str
+    greet("Alex");                      // ✅ &'static str
 
-    let owned: String = String::from("Leo");
+    let owned: String = String::from("Alex");
     greet(&owned);                      // ✅ &String coerces to &str
 
     let upper = owned.to_uppercase();   // returns a new String
@@ -135,7 +135,7 @@ fn main() {
 ### 6. The `format!` macro
 
 ```rust
-let name = "Leo";
+let name = "Alex";
 let n = 5;
 let msg = format!("{} has done {} sessions", name, n);
 println!("{}", msg);

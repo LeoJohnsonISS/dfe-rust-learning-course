@@ -1,5 +1,5 @@
-# PRD: Learn Rust with Leo
-### A 24-Session Rust Programming Course for a 15-Year-Old with Interests in Music, Maths, and Minecraft
+# PRD: DfE Rust Learning Course
+### A 24-Session Rust Programming Course for a Teenage DofE Skill Participant Interested in Music, Maths, and Minecraft
 
 ---
 
@@ -13,13 +13,13 @@ The course will live as an open-source GitHub repository so that others can use 
 
 ## Learner Profile
 
-- **Name:** Leo
-- **Age:** 15
+- **Persona:** A motivated teenage learner (the original brief was age 15; the course works for any DofE participant aged ~14+)
+- **Age:** ~14–17
 - **Experience:** Beginner programmer (some exposure to Python and/or similar)
-- **Interests:** Music (has a MIDI keyboard), Minecraft, Mathematics
-- **Hardware:** Powerful Windows PC, MIDI keyboard connected via USB
+- **Interests:** Music (ideally a MIDI keyboard available, but optional), Minecraft, Mathematics
+- **Hardware:** A reasonably powerful PC; MIDI keyboard via USB is a stretch goal, not a requirement
 - **Goal:** Complete a structured, skill-building Rust course over 12 weeks as part of a Duke of Edinburgh skill requirement
-- **Tone:** Treat Leo as an intelligent teenager, not a child. Avoid being patronising. Be enthusiastic about the language and the projects. Humour is welcome.
+- **Tone:** Treat the learner as an intelligent teenager, not a child. Avoid being patronising. Be enthusiastic about the language and the projects. Humour is welcome.
 
 ---
 
@@ -34,7 +34,7 @@ The course will live as an open-source GitHub repository so that others can use 
 | Delivery format | Self-directed with written materials |
 | Primary language | Rust (stable toolchain) |
 | Build tool | Cargo (standard) |
-| Primary platform | Windows 10/11 (Leo's PC) |
+| Primary platform | Windows 10/11 (the canonical learner runs Windows) |
 | Also supported | macOS 12+, Linux (Ubuntu 22.04+ / Debian 12+ / Arch) |
 | Cross-platform | Yes -- all projects compile and run unmodified on all three platforms |
 
@@ -50,7 +50,7 @@ The course will live as an open-source GitHub repository so that others can use 
 
 3. **Projects are the point.** The mini-projects at the end of each month are the emotional anchors of the course. Session content should visibly build towards them. When teaching a new concept, say explicitly: "We'll use this in the project."
 
-4. **Respect the learner's intelligence.** Leo is 15 and interested in maths. Don't oversimplify. Use correct terminology and explain it clearly, but don't talk down to him.
+4. **Respect the learner's intelligence.** The learner is a teenager interested in maths. Don't oversimplify. Use correct terminology and explain it clearly, but don't talk down to them.
 
 5. **Make it fun.** Music, Minecraft, and maths are the lenses through which concepts should be framed wherever possible. A lesson on loops is more engaging if the example is iterating over musical notes rather than a list of numbers 1 to 10.
 
@@ -82,7 +82,7 @@ This course satisfies all five requirements:
 | Evidence of progression | Session logs + 3 milestone projects of increasing complexity, all with git commit history as timestamps |
 | Assessor sign-off | Assessor briefing document provided; the assessor reviews the session logs and the three completed projects |
 | Personal statement | Template provided in `dfe/participant-statement-template.md` |
-| Activity log | Session log template provided; Leo completes one entry per session |
+| Activity log | Session log template provided; the learner completes one entry per session |
 
 ### Who Can Be the Assessor?
 
@@ -98,14 +98,14 @@ The assessor does **not** need to be a Rust expert. The assessor briefing docume
 All DofE materials live in a `dfe/` folder at the repository root. The agent must generate all of the following:
 
 #### `dfe/README.md`
-A plain-English explanation of this folder for Leo, his parents, and his assessor. Should explain:
+A plain-English explanation of this folder for the learner, their parents/guardians, and their assessor. Should explain:
 - What DofE Skill requires
 - How this course provides the evidence
-- What Leo needs to fill in (session logs, milestone reflections)
+- What the learner needs to fill in (session logs, milestone reflections)
 - What the assessor needs to do and when
 
 #### `dfe/session-log-template.md`
-A template for a single session entry. Leo copies this and fills it in after every session. Keep it short -- it should take no more than 5-10 minutes to complete. Fields:
+A template for a single session entry. The learner copies this and fills it in after every session. Keep it short -- it should take no more than 5-10 minutes to complete. Fields:
 
 ```markdown
 ## Session [N] Log
@@ -128,7 +128,7 @@ A template for a single session entry. Leo copies this and fills it in after eve
 ```
 
 #### `dfe/session-log-printable.md`
-A print-friendly version of the session log designed to be rendered as a PDF and printed as an A4 booklet. Leo can keep a physical folder alongside the digital repo -- DofE coordinators often appreciate something tangible, and some schools require it.
+A print-friendly version of the session log designed to be rendered as a PDF and printed as an A4 booklet. The learner can keep a physical folder alongside the digital repo -- DofE coordinators often appreciate something tangible, and some schools require it.
 
 Layout requirements:
 - One session per page
@@ -136,12 +136,12 @@ Layout requirements:
 - Fields: Session number, Date, Time spent, What I did today (5 lines), What I learned (5 lines), What was hard (3 lines), What I'd explore further (2 lines)
 - A footer on each page with space for: Participant name, Assessor initials (confirming the entry was reviewed)
 - The document should open with a cover page containing: participant name (blank), award level (blank), skill, start date (blank), end date (blank), and a brief one-paragraph explanation of what the document is for
-- All 24 session pages should be pre-generated with the session number and title already filled in -- Leo only writes in the content fields
+- All 24 session pages should be pre-generated with the session number and title already filled in -- the learner only writes in the content fields
 
 The agent should include a note at the top of the file explaining how to print it: open the file on GitHub, use the browser's Print function, select "Save as PDF" or a physical printer, and set paper size to A4.
 
 #### `dfe/session-log.md`
-A single running document where Leo pastes all 24 session log entries in order. Starts pre-populated with the 24 session titles and dates left blank. This is the primary evidence document.
+A single running document where the learner pastes all 24 session log entries in order. Starts pre-populated with the 24 session titles and dates left blank. This is the primary evidence document.
 
 #### `dfe/milestone-1-reflection.md`, `milestone-2-reflection.md`, `milestone-3-reflection.md`
 One reflection document per mini-project, completed after Sessions 8, 16, and 24 respectively. Slightly more substantial than a session log -- 3-5 paragraphs. Template fields:
@@ -171,17 +171,17 @@ One reflection document per mini-project, completed after Sessions 8, 16, and 24
 #### `dfe/assessor-briefing.md`
 A document written for the assessor. Must be accessible to a non-technical reader. Should cover:
 - What the DofE Skill section requires and the assessor's role
-- What this course is and what Leo has been learning
-- What to look for as evidence of genuine improvement (working projects, increasing complexity, Leo's own reflections in his own words)
-- How to verify the work is Leo's (the git commit history timestamps activity; the session logs describe specific struggles and breakthroughs that indicate authentic engagement)
+- What this course is and what the learner has been learning
+- What to look for as evidence of genuine improvement (working projects, increasing complexity, the learner's own reflections in their own words)
+- How to verify the work is the learner's (the git commit history timestamps activity; the session logs describe specific struggles and breakthroughs that indicate authentic engagement)
 - The three questions the assessor should be able to answer yes to before signing off:
-  1. Did Leo undertake this activity regularly over the required period?
-  2. Has Leo demonstrably improved -- can he do things now he could not do at the start?
-  3. Has Leo reflected meaningfully on his learning?
+  1. Did the learner undertake this activity regularly over the required period?
+  2. Has the learner demonstrably improved -- can they do things now they could not do at the start?
+  3. Has the learner reflected meaningfully on their learning?
 - The assessor sign-off section (name, relationship to participant, contact, signature, date)
 
 #### `dfe/participant-statement-template.md`
-A guided template for Leo's final personal statement, to be written after Session 24. This is submitted to DofE alongside the assessor report. Suggested structure:
+A guided template for the learner's final personal statement, to be written after Session 24. This is submitted to DofE alongside the assessor report. Suggested structure:
 
 ```markdown
 ## Participant Statement: Learning Rust Programming
@@ -215,7 +215,7 @@ A guided template for Leo's final personal statement, to be written after Sessio
 ```
 
 #### `dfe/progress-summary.md`
-Auto-generated by the agent as a static summary table -- Leo does not edit this. It maps each session to the concept learned and the DofE evidence it provides. Used to give the assessor a quick overview.
+Auto-generated by the agent as a static summary table -- the learner does not edit this. It maps each session to the concept learned and the DofE evidence it provides. Used to give the assessor a quick overview.
 
 ```markdown
 | Session | Title | Concept | Evidence |
@@ -302,7 +302,7 @@ rust-course-leo/
 ├── SETUP.md                   # Installing Rust, Cargo, VS Code -- Windows, macOS, Linux
 ├── dfe/
 │   ├── README.md              # Plain-English guide to the DofE materials
-│   ├── session-log.md         # Running log -- Leo fills this in after every session
+│   ├── session-log.md         # Running log -- the learner fills this in after every session
 │   ├── session-log-template.md
 │   ├── session-log-printable.md  # Print-friendly version: one form per session, A4
 │   ├── milestone-1-reflection.md
@@ -377,11 +377,11 @@ An open-ended extension task. No solution is provided. Should be achievable
 but require thinking beyond what was explicitly taught.
 
 ## Quick Reference
-A mini cheat-sheet of the syntax introduced today. Useful for when Leo returns
+A mini cheat-sheet of the syntax introduced today. Useful for when the learner returns
 to a session later as a reference.
 
 ## DofE Log Reminder
-A one-line prompt at the end of every session reminding Leo to complete his
+A one-line prompt at the end of every session reminding the learner to complete their
 session log entry in `dfe/session-log.md`. Example:
 > "You've finished Session N. Before you close the laptop, spend 5 minutes
 > filling in your session log in `dfe/session-log.md` -- it's your DofE evidence
@@ -414,7 +414,7 @@ This project is achievable with only the Month 1 concepts. It requires: string h
 
 This is the first session and it sets the tone for the entire course. It must do three things:
 
-1. **Give Leo a reason to care about Rust.** Keep the history brief (5-10 minutes of reading), but make it compelling. The angle is performance and reliability, framed for a teenager:
+1. **Give the learner a reason to care about Rust.** Keep the history brief (5-10 minutes of reading), but make it compelling. The angle is performance and reliability, framed for a teenager:
    - Programming languages have generations. C is the grandfather -- blazing fast but dangerous (one mistake and your whole program crashes or gets hacked). Python is the friendly modern option -- easy to read, but slow.
    - Rust is the breakthrough: it's as fast as C, but it has a system called the *borrow checker* that prevents entire categories of bugs at compile time. It literally won't let you write certain classes of broken code.
    - Rust has been voted the "most loved programming language" on Stack Overflow for 9 consecutive years.
@@ -473,9 +473,9 @@ This is the first session and it sets the tone for the entire course. It must do
 
    Use the `fastrand` crate for the Rust version (add to `Cargo.toml`). The expected results on a modern PC are approximately 35-60 seconds for Python and under 1 second for Rust. The agent should include a callout box noting the typical speedup factor and explaining *why* this happens (compiled vs interpreted, native types vs Python objects, no GIL overhead).
 
-   The Monte Carlo method itself should be briefly explained: randomly sampling points inside a unit square and checking if they fall inside a quarter-circle. The ratio gives Pi. This is elegant maths and Leo will appreciate it.
+   The Monte Carlo method itself should be briefly explained: randomly sampling points inside a unit square and checking if they fall inside a quarter-circle. The ratio gives Pi. This is elegant maths and the learner will appreciate it.
 
-3. **Get Leo writing Rust immediately.** After the speed demo, walk through installing Rust via `rustup`, then `cargo new hello_world`, then a first Hello World. Keep this brisk -- he's already motivated.
+3. **Get the learner writing Rust immediately.** After the speed demo, walk through installing Rust via `rustup`, then `cargo new hello_world`, then a first Hello World. Keep this brisk -- they're already motivated.
 
 **Concepts introduced:** `cargo new`, `cargo run`, `fn main()`, `println!`, basic program structure. Do NOT go into ownership, types, or anything advanced -- just enough to run something.
 
@@ -669,7 +669,7 @@ Explain this step by step -- it's a great opportunity to talk about hash functio
 
 **Theme:** The ecosystem, advanced patterns, and building something real.
 
-**Final Project:** `midi-synth` -- A MIDI synthesiser that reads MIDI note data (from either a `.mid` file or live input from a connected MIDI keyboard) and either plays audio in real-time or renders a WAV file. Leo can plug in his MIDI keyboard and hear the notes as synthesised audio generated entirely by his own Rust code.
+**Final Project:** `midi-synth` -- A MIDI synthesiser that reads MIDI note data (from either a `.mid` file or live input from a connected MIDI keyboard) and either plays audio in real-time or renders a WAV file. The learner can plug in a MIDI keyboard and hear the notes as synthesised audio generated entirely by their own Rust code.
 
 This project is ambitious but achievable in 4 sessions given the groundwork laid in Months 1 and 2. It uses real external crates and produces real, tangible output.
 
@@ -703,7 +703,7 @@ Explain the WAV file format at a byte level. This is the foundation of the final
 - Provide a minimal hand-written WAV header generator in Rust (no external crates) that writes a 1-second sine wave at 440 Hz as a valid `.wav` file
 - The student should be able to open this file in Windows Media Player, Audacity, or VLC and hear a tone
 
-Provide the complete sample rate / frequency / amplitude / sample calculation walkthrough. This is genuine digital signal processing and Leo will find it fascinating.
+Provide the complete sample rate / frequency / amplitude / sample calculation walkthrough. This is genuine digital signal processing and the learner will find it fascinating.
 
 ---
 
@@ -761,7 +761,7 @@ Provide a sample `.mid` file in the session directory (a simple melody -- someth
 
 #### Session 23: Final Project Session 3 -- Live MIDI Input
 
-**Goal:** Connect to Leo's MIDI keyboard and play synthesised audio in real-time:
+**Goal:** Connect to the learner's MIDI keyboard and play synthesised audio in real-time:
 - Use `midir` to enumerate MIDI input ports and connect to the keyboard
 - Receive note-on and note-off events in a callback
 - Use `cpal` to open an audio output stream
@@ -784,7 +784,7 @@ If real-time audio proves too complex for the session scope, the fallback is: ca
 - Add a `--chord` mode that plays common chords (major, minor, 7th) from a root note
 - Print a summary of notes played
 
-**Celebration section (required):** The final section of this session must be a "What You've Built" retrospective that lists every meaningful Rust concept Leo has learned and every project he's completed. This is for his DofE record and his own satisfaction.
+**Celebration section (required):** The final section of this session must be a "What You've Built" retrospective that lists every meaningful Rust concept the learner has covered and every project they've completed. This is for their DofE record and their own satisfaction.
 
 **What's next section (required):** Brief, exciting pointers to where Rust goes next:
 - Web development with Axum or Actix

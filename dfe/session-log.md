@@ -1,4 +1,4 @@
-# Session Log — Learn Rust with Leo
+# Session Log — DfE Rust Learning Course
 
 **Participant name:** ______________________________
 **Award level (Bronze / Silver / Gold):** ______________________________

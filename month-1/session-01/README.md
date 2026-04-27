@@ -140,7 +140,7 @@ Edit `src/main.rs`:
 ```rust
 fn main() {
     println!("Hello, world!");
-    println!("My name is Leo.");
+    println!("My name is <your name>.");
     println!("I am learning Rust.");
 }
 ```

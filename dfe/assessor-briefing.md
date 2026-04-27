@@ -24,7 +24,7 @@ That's it. You're a witness, not an examiner.
 
 ## What the participant has been doing
 
-The participant has been working through a 24-session course called **Learn Rust with Leo** — a structured introduction to the **Rust programming language**.
+The participant has been working through a 24-session course called the **DfE Rust Learning Course** — a structured introduction to the **Rust programming language**.
 
 - Two ~1-hour sessions per week, for 12 weeks
 - Each session has a written walkthrough and runnable code

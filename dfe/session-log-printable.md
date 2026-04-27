@@ -12,7 +12,7 @@
 
 ---
 
-# Learn Rust with Leo
+# DfE Rust Learning Course
 ## Duke of Edinburgh Skill Section — Activity Log
 
 | Field | Value |

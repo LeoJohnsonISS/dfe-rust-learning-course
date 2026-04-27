@@ -117,7 +117,7 @@ A `dom7` chord wants to resolve down a fifth — try playing G7 then C major bac
 
 ## What You've Built
 
-Look back. In **session 1** your program said `Hello, Leo!`. In **session 24**:
+Look back. In **session 1** your program said `Hello, world!`. In **session 24**:
 
 - It synthesises four waveforms from first principles.
 - It applies an ADSR envelope you understand inch-by-inch.
