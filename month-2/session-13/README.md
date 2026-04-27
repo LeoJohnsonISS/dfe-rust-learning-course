@@ -195,6 +195,16 @@ fn double_then(x: i32) -> Result<i32, String> {
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Error Handling). All free; all current as of writing.
+
+- [**The Rust Book** — *Error Handling* (chapter 9)](https://doc.rust-lang.org/book/ch09-00-error-handling.html) — `panic!` vs `Result<T, E>`, the `?` operator, and when to use which.
+- [**Error Handling in Rust** — Andrew Gallant (BurntSushi)](https://blog.burntsushi.net/rust-error-handling/) — Long, deep, and authoritative. Reach for this when you start designing your own error types.
+- [**`thiserror` crate** — derive macro for error enums](https://docs.rs/thiserror/latest/thiserror/) — How most production Rust code defines library errors today.
+- [**`anyhow` crate** — application-level error type](https://docs.rs/anyhow/latest/anyhow/) — The other half of the modern pair: use `anyhow::Result` for your `main`, `thiserror`-derived enums for your library.
+
+---
 ## DofE Log Reminder
 
 Row 13. You're 13/24 — over halfway through.

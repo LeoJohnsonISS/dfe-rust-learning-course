@@ -233,6 +233,15 @@ Extend `examples/piano_keyboard` to:
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Control Flow). All free; all current as of writing.
+
+- [**The Rust Book** — *Control Flow* (3.5)](https://doc.rust-lang.org/book/ch03-05-control-flow.html) — Covers `if`, `loop`, `while`, `for`, plus the reason `loop` can return a value.
+- [**Rust by Example** — *Flow of Control*](https://doc.rust-lang.org/rust-by-example/flow_control.html) — Snippet-per-construct, easy to skim.
+- [**Rustlings** — interactive exercises (the `if`, `quiz1`, `primitive_types` sets)](https://github.com/rust-lang/rustlings) — Official Rust team exercise set. Install it (`cargo install rustlings`) and you have a guided drill book.
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 4 done. Open [`dfe/session-log.md`](../../dfe/session-log.md) and capture the session. Did the keyboard render correctly the first time, or did you get the black/white pattern wrong? That's worth noting.

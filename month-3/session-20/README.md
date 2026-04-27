@@ -267,6 +267,16 @@ fn first_word<'a>(s: &'a str) -> &'a str {
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Generics and Advanced Traits). All free; all current as of writing.
+
+- [**The Rust Book** — *Generic Types, Traits, and Lifetimes* (chapter 10)](https://doc.rust-lang.org/book/ch10-00-generics.html) — The full story, including monomorphisation.
+- [**The Rust Book** — *Advanced Traits* (19.2)](https://doc.rust-lang.org/book/ch19-03-advanced-traits.html) — Associated types, default type parameters, supertraits, the newtype pattern.
+- [**The Rustonomicon** — *for the unsafe and curious*](https://doc.rust-lang.org/nomicon/) — When you outgrow the Book, this is the next book. Difficult; brilliant.
+- [**Jon Gjengset — *Crust of Rust* video series**](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa) — Long-form deep-dives by a Rust expert. The *Iterators* and *Lifetimes* episodes pair perfectly with this session.
+
+---
 ## DofE Log Reminder
 
 Row 20. Final sprint: four sessions left. They're all the project — make sure your dev setup is happy.

@@ -205,6 +205,15 @@ let x = first_letter("").unwrap_or('?');     // '?' because string is empty
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Enums with data and `Option<T>`). All free; all current as of writing.
+
+- [**The Rust Book** — *Enums and Pattern Matching* (chapter 6)](https://doc.rust-lang.org/book/ch06-00-enums.html) — Re-read with fresh eyes now that you've seen them in action.
+- [**`Option<T>` documentation**](https://doc.rust-lang.org/std/option/) — Skim every method. `map`, `and_then`, `unwrap_or`, `ok_or` — all the glue you'll use forever.
+- [**Null References: The Billion Dollar Mistake** — Tony Hoare (talk)](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/) — The man who invented `null` apologising for it. Explains why `Option<T>` matters.
+
+---
 ## DofE Log Reminder
 
 Row 10 of [`session-log.md`](../../dfe/session-log.md). Don't break the chain.

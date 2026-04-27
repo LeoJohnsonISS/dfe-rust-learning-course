@@ -211,6 +211,15 @@ Without this reflection, the milestone doesn't really exist on paper. **Write it
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Project — Render and Polish (part 2)). All free; all current as of writing.
+
+- [**Red Blob Games — *Hexagonal grids* and *Square grids***](https://www.redblobgames.com/grids/hexagons/) — If you ever want to take the world generator further. Beautiful interactive examples.
+- [**ANSI escape codes** — Wikipedia](https://en.wikipedia.org/wiki/ANSI_escape_code) — What the `colored` crate is generating under the hood. Useful when colour breaks in unusual terminals.
+- [**Tom Forsyth — *Procedural content generation***](https://tomforsyth1000.github.io/blog.wiki.html) — Game-industry blog with assorted procedural content techniques. Good for inspiration once you've shipped Milestone 2.
+
+---
 ## DofE Log Reminder
 
 Row 16 — and your **second milestone** is now complete. Two thirds of your DofE evidence is in the bag.

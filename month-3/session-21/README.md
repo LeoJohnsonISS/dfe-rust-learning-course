@@ -122,6 +122,17 @@ for s in samples { writer.write_sample((s * i16::MAX as f32) as i16)?; }
 writer.finalize()?;
 ```
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Audio Engine — Waveforms, ADSR, `hound`). All free; all current as of writing.
+
+- [**WAV file format spec** — sapp.org](http://soundfile.sapp.org/doc/WaveFormat/) — The canonical one-page reference for the RIFF/WAVE container we're writing into.
+- [**Wikipedia — *Envelope (music)***](https://en.wikipedia.org/wiki/Envelope_(music)) — Background on ADSR (Attack–Decay–Sustain–Release) envelopes.
+- [**`hound` crate documentation**](https://docs.rs/hound/latest/hound/) — The crate we're using to write WAV files. Tiny API; worth reading top-to-bottom.
+- [**3Blue1Brown — *But what is the Fourier Transform? A visual introduction***](https://www.youtube.com/watch?v=spUNpyF58BY) — Why a sawtooth sounds bright and a sine sounds pure. Not required for the project; absolutely worth watching.
+- [**Sound on Sound — *Synth Secrets* archive**](https://www.soundonsound.com/series/synth-secrets-1996-2004) — 63-part legendary series covering every aspect of subtractive synthesis. The first ~10 articles are the foundation.
+
+---
 ## DofE Log Reminder
 
 Open `dfe/session-log.md`, find row 21, and write 1–3 sentences about what you built today. Mention: which waveform sounds the most "synth-y" to you and why you think that is.

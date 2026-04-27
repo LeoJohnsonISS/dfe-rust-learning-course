@@ -216,6 +216,16 @@ struct Coord { x: i32, y: i32 }
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Traits). All free; all current as of writing.
+
+- [**The Rust Book** — *Traits: Defining Shared Behavior* (10.2)](https://doc.rust-lang.org/book/ch10-02-traits.html) — The canonical explanation, with default methods and trait bounds.
+- [**The Rust Book** — *Trait Objects* (17.2)](https://doc.rust-lang.org/book/ch17-02-trait-objects.html) — Dynamic dispatch via `dyn Trait` — the runtime cousin of generics.
+- [**Rust by Example** — *Traits*](https://doc.rust-lang.org/rust-by-example/trait.html) — Quick snippets for `impl Trait`, supertraits, and operator overloading.
+- [**Common derive macros** — `Debug`, `Clone`, `PartialEq`, etc.](https://doc.rust-lang.org/reference/attributes/derive.html) — What you can `#[derive(...)]` and what each one does.
+
+---
 ## DofE Log Reminder
 
 Row 14. After Sessions 15 and 16 you'll write the second milestone reflection.

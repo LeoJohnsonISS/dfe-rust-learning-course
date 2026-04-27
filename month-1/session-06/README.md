@@ -257,6 +257,16 @@ Add a third scale type to `scale_notes`: `Blues` (semitone pattern `3, 2, 1, 1, 
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Enums and Strings). All free; all current as of writing.
+
+- [**The Rust Book** — *Defining an Enum* (6.1)](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html) — Why enums in Rust are far more powerful than in most languages.
+- [**The Rust Book** — *Storing UTF-8 Encoded Text with Strings* (8.2)](https://doc.rust-lang.org/book/ch08-02-strings.html) — Why `String` and `&str` exist as separate types and when to use each.
+- [**It's Not Wrong That `"🤦🏼‍♂️".length == 7`** — Henri Sivonen](https://hsivonen.fi/string-length/) — Why string length is a complicated question, and how Rust's choice differs from JavaScript and Python.
+- [**`std::string` and `std::str` API docs**](https://doc.rust-lang.org/std/string/struct.String.html) — The full API for `String`. Most of the methods you'll ever want are listed at the top.
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 6 done. The next two sessions are project work — no new concepts. Capture this one in [`dfe/session-log.md`](../../dfe/session-log.md). What was the most surprising thing about `String` vs `&str`?

@@ -182,6 +182,15 @@ move |x| outer_var + x       // 'move' takes ownership of captured vars
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Iterators and Closures (intro)). All free; all current as of writing.
+
+- [**The Rust Book** — *Functional Language Features* (chapter 13)](https://doc.rust-lang.org/book/ch13-00-functional-features.html) — Closures and iterators in one chapter. Worth reading end-to-end.
+- [**`Iterator` trait documentation**](https://doc.rust-lang.org/std/iter/trait.Iterator.html) — Every adapter (`map`, `filter`, `take`, `chain`, ...) listed alphabetically. Skim it; you'll come back.
+- [**Rust by Example** — *Closures*](https://doc.rust-lang.org/rust-by-example/fn/closures.html) — All three closure traits (`Fn`, `FnMut`, `FnOnce`) demonstrated in tiny snippets.
+
+---
 ## DofE Log Reminder
 
 Row 12. Two-thirds of the way through Month 2.

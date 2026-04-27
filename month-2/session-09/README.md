@@ -230,6 +230,15 @@ println!("{}", f.doubled_a());                // 6
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Structs and Methods). All free; all current as of writing.
+
+- [**The Rust Book** — *Using Structs to Structure Related Data* (chapter 5)](https://doc.rust-lang.org/book/ch05-00-structs.html) — Every flavour of struct (named, tuple, unit) plus methods and `impl` blocks.
+- [**Rust by Example** — *Structures* and *Methods*](https://doc.rust-lang.org/rust-by-example/custom_types/structs.html) — Short, runnable examples for every variant.
+- [**The Rust Reference** — *Methods*](https://doc.rust-lang.org/reference/items/associated-items.html#methods) — The exhaustive rules. Useful when you wonder why a method *doesn't* take `&self`.
+
+---
 ## DofE Log Reminder
 
 Open [`dfe/session-log.md`](../../dfe/session-log.md), find row **9**, fill in date, time, what you built, and what you learned. Don't put it off — it takes 60 seconds and your assessor needs it.

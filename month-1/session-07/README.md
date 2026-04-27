@@ -91,6 +91,16 @@ If all six checkboxes are ticked, you're done for today.
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Project — Scale Generator (part 1)). All free; all current as of writing.
+
+- [**`musictheory.net` — Lessons**](https://www.musictheory.net/lessons) — Free interactive music-theory lessons. Lessons 13–15 cover scales and intervals, exactly what we're modelling.
+- [**Wikipedia — Major scale**](https://en.wikipedia.org/wiki/Major_scale) — The W-W-H-W-W-W-H pattern, the seven modes derived from it, and a tidy history.
+- [**`clap` crate documentation** — command-line argument parsing](https://docs.rs/clap/latest/clap/) — The de-facto Rust CLI library. We use the *derive* style — read the *Tutorial* page first.
+- [**The Rust Book** — *An I/O Project: Building a Command Line Program* (chapter 12)](https://doc.rust-lang.org/book/ch12-00-an-io-project.html) — A complete worked example of a Rust CLI tool. Reading this alongside our project is gold.
+
+---
 ## DofE Log Reminder
 
 > 📝 Project sessions are when you really see your skills land. In your [`dfe/session-log.md`](../../dfe/session-log.md), record what worked, what didn't, what you had to look up. The "what was hard" field is especially valuable on project days — these are the moments your future self (and your assessor) will most appreciate seeing.

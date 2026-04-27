@@ -233,6 +233,16 @@ let n = u32::from_le_bytes(buf);
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (File I/O and Binary Data). All free; all current as of writing.
+
+- [**The Rust Book** — *Reading a File* (12.2)](https://doc.rust-lang.org/book/ch12-02-reading-a-file.html) — The smallest possible end-to-end file-reading example.
+- [**`std::fs` documentation**](https://doc.rust-lang.org/std/fs/) — All the file-system primitives. Read about `File`, `OpenOptions`, and `read_to_string`.
+- [**`byteorder` crate** — endianness-aware binary reads/writes](https://docs.rs/byteorder/latest/byteorder/) — Indispensable when you start parsing binary formats.
+- [**Wikipedia — *Endianness***](https://en.wikipedia.org/wiki/Endianness) — Why MIDI is big-endian, WAV is little-endian, and why anyone should care.
+
+---
 ## DofE Log Reminder
 
 Row 18. Note the moment you heard your own audio — that's a memorable session.

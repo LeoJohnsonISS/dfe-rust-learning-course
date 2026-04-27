@@ -32,6 +32,12 @@ The mathematician's trick: imagine a square 1 unit on each side, with a quarter-
 
 > **The maths in one line:** points where `x² + y² ≤ 1` are inside the quarter-circle. So `π ≈ 4 × (points inside) / (total points)`.
 
+Here's the whole idea in one picture:
+
+![Estimating π by throwing darts at a square — 120 random points fired into a unit square, with the ones that land inside the quarter-circle counted as hits. The hit-fraction times 4 approximates π.](./diagrams/monte-carlo-pi.svg)
+
+> **Reading the diagram.** Every dot is one random "dart". **Green** dots landed inside the quarter-circle (`x² + y² ≤ 1` — they "hit"); **red** dots missed (`x² + y² > 1`). With only 120 darts in this picture we get π ≈ 3.03 — close, but wobbly. Crank it up to 100,000,000 darts and you get π to four decimal places. The whole program is a `for` loop that does exactly the test you can see in this diagram, a hundred million times. **That's why the speed of the language matters.**
+
 We're going to estimate Pi this way using **100 million samples**, in both Python and Rust. Run them both. Time them. Compare.
 
 #### The Python version (`examples/pi_python.py`)
@@ -240,6 +246,17 @@ Open the `pi_rust` example. The current run uses 100 million samples. Try changi
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Why Rust + Pi speed demo). All free; all current as of writing.
+
+- [**The Rust Programming Language** — Foreword & Introduction](https://doc.rust-lang.org/book/foreword.html) — The official book, free online, written by the Rust team. The single best long-form intro.
+- [**A half-hour to learn Rust** — Amos (fasterthanli.me)](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) — Whirlwind tour of the whole language in one page. Re-read it after Session 8 and you'll understand far more of it.
+- [**Stack Overflow Developer Survey** — Most-admired languages](https://survey.stackoverflow.co/2024/technology#admired-and-desired) — Where the 'voted most loved' claim comes from. Worth scanning the rest of the survey too.
+- [**Wikipedia — Monte Carlo method**](https://en.wikipedia.org/wiki/Monte_Carlo_method) — Background on the technique we used to estimate π. Used everywhere from physics to finance to game AI.
+- [**3Blue1Brown — *Why is pi here? And why squared?***](https://www.youtube.com/watch?v=d-o3eB9sfls) — Beautiful 18-minute video on a different way π appears in random processes. Pure maths candy.
+
+---
 ## DofE Log Reminder
 
 > 📝 You've finished Session 1. Before you close the laptop, spend 5 minutes filling in **Session 1** in [`dfe/session-log.md`](../../dfe/session-log.md). Capture the speed difference you saw — that number is fun to look back on. It's your DofE evidence and it only takes a few minutes while it's fresh.

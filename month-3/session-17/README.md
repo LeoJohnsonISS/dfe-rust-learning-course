@@ -282,6 +282,17 @@ cargo doc --open       # build & view docs for every dep you use
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Modules, Crates, Cargo). All free; all current as of writing.
+
+- [**The Rust Book** — *Managing Growing Projects with Packages, Crates, and Modules* (chapter 7)](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html) — Modules, paths, `pub`, `use`. Tricky chapter — read twice.
+- [**The Cargo Book**](https://doc.rust-lang.org/cargo/) — Everything about Cargo. The *Reference* section is encyclopaedic; bookmark it.
+- [**`crates.io`**](https://crates.io) — Browse, search, evaluate. Download counts and recent updates are good signals.
+- [**Choosing a crate — *blessed.rs* curated list**](https://blessed.rs) — Community-curated 'these are the de-facto-standard crates for X' index. Saves hours.
+- [**Publishing on `crates.io`** — Cargo book chapter](https://doc.rust-lang.org/cargo/reference/publishing.html) — If you ever want to publish your own crate, this is the playbook.
+
+---
 ## DofE Log Reminder
 
 Row 17. New month, fresh chain. Keep going.

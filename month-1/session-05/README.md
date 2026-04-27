@@ -252,6 +252,16 @@ Write a function `parse_note_name(name: &str) -> Option<u8>` that returns the MI
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Pattern matching and `match`). All free; all current as of writing.
+
+- [**The Rust Book** — *The `match` Control Flow Construct* (6.2)](https://doc.rust-lang.org/book/ch06-02-match.html) — The whole story, with the famous Option example.
+- [**The Rust Book** — *Patterns and Matching* (chapter 18)](https://doc.rust-lang.org/book/ch18-00-patterns.html) — Everywhere patterns appear in Rust — `let`, function args, `if let`, `while let`. Read this once and you'll see them everywhere.
+- [**Rust by Example** — *match*](https://doc.rust-lang.org/rust-by-example/flow_control/match.html) — Bite-sized variants, including ranges and guards.
+- [**The Rust Reference** — *Pattern syntax*](https://doc.rust-lang.org/reference/patterns.html) — The exhaustive grammar. Reach for this when something unusual works (or refuses to).
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 5 done. `match` is one of the most loved features of Rust — was it intuitive? What did you build with it? Five minutes in [`dfe/session-log.md`](../../dfe/session-log.md).

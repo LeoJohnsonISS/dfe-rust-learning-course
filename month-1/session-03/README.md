@@ -225,6 +225,16 @@ Extend `examples/midi_to_freq` so that it:
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Functions, Expressions, I/O). All free; all current as of writing.
+
+- [**The Rust Book** — *How Functions Work* (3.3)](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html) — Includes the all-important *expressions vs statements* distinction.
+- [**The Rust Book** — *Programming a Guessing Game* (chapter 2)](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html) — Builds the same kind of stdin-reading toy you wrote today, and adds error handling — well worth a look.
+- [**`std::io` documentation**](https://doc.rust-lang.org/std/io/) — The standard library's I/O primitives. Skim the *Read* and *BufRead* traits.
+- [**Rust by Example** — *Expressions*](https://doc.rust-lang.org/rust-by-example/expression.html) — Short and sharp; great refresher.
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 3 done. Five minutes in [`dfe/session-log.md`](../../dfe/session-log.md). What's the most surprising thing about expressions vs statements?

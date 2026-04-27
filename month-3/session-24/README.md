@@ -140,6 +140,17 @@ You've outgrown the beginner phase of Rust. Pick whatever sounds fun:
 
 Pick one of those. Make a small thing. Show your supervisor. Keep your DofE log going for as long as you keep coding — you'll be glad you did.
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Polyphony, `--chord` mode, retrospective). All free; all current as of writing.
+
+- [**Wikipedia — *Polyphony and monophony in instruments***](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments) — Background on the polyphony/voice-stealing problem we're tackling.
+- [**The Rust community — *Where to go from here***](https://www.rust-lang.org/community) — Forums, Discord, user groups, conferences. The community is one of Rust's best features.
+- [**This Week in Rust** — weekly newsletter](https://this-week-in-rust.org) — The single best way to keep current. Subscribe.
+- [**Are We Game Yet? / Are We Web Yet? / Are We Learning Yet?** — domain-progress trackers](https://wiki.mozilla.org/Areweyet) — Once you've finished this course, these tell you which domains in Rust are ready and which are still maturing — handy for picking your next project.
+- [**Rustlings** — interactive practice problems](https://github.com/rust-lang/rustlings) — Official exercise set. Run through the chapters that match areas you found hard in this course; it's the best drill.
+
+---
 ## DofE Log Reminder
 
 Open `dfe/session-log.md`, find row 24, and write a longer entry today (5–10 sentences). This is your **final reflection**:

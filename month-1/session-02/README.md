@@ -230,6 +230,16 @@ Modify `examples/chromatic_scale` to:
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Variables, Types, Mutability). All free; all current as of writing.
+
+- [**The Rust Book** — *Variables and Mutability* (3.1)](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html) — The canonical explanation, with all the edge cases.
+- [**The Rust Book** — *Data Types* (3.2)](https://doc.rust-lang.org/book/ch03-02-data-types.html) — Every scalar and compound type Rust ships with.
+- [**Rust by Example** — *Variable bindings*](https://doc.rust-lang.org/rust-by-example/variable_bindings.html) — Tiny runnable snippets for every concept, side by side with explanations.
+- [**What Every Programmer Should Know About Floating-Point**](https://floating-point-gui.de) — A friendly version of the famous Goldberg paper. Read this before you ever compare two `f64`s with `==`.
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 2 done. Open [`dfe/session-log.md`](../../dfe/session-log.md), find the Session 2 block, and fill it in. What clicked? What didn't? Five minutes, while it's fresh.

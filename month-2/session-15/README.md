@@ -161,6 +161,16 @@ Once your generator works:
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Project — World Core (part 1)). All free; all current as of writing.
+
+- [**Red Blob Games — *Making maps with noise functions***](https://www.redblobgames.com/maps/terrain-from-noise/) — The single best web tutorial on procedural terrain. Pictures everywhere; language-agnostic.
+- [**RogueBasin — *Cellular Automata Method for Generating Random Cave-Like Levels***](https://roguebasin.com/index.php/Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels) — The classic 'random + smoothing passes = caves' algorithm we're inspired by.
+- [**`rand` crate documentation**](https://docs.rs/rand/latest/rand/) — Rust's standard random library. Read the *Quick Start* page first.
+- [**Notch's blog — *Terrain generation, part 1***](https://notch.tumblr.com/post/3746989361/terrain-generation-part-1) — Minecraft's creator describing how Minecraft's terrain works. Exactly the lineage of what you're building.
+
+---
 ## DofE Log Reminder
 
 Row 15. Project session — note in your log what you got working ("World generation engine, deterministic, ASCII-debug output").

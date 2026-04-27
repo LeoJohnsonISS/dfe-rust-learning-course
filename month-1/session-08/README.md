@@ -128,6 +128,16 @@ If all five checkboxes are ticked: **Milestone 1 reached. 🎉**
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Project — Chord Progressions and Polish (part 2)). All free; all current as of writing.
+
+- [**Wikipedia — Diatonic functional harmony**](https://en.wikipedia.org/wiki/Diatonic_function) — The theory behind 'I-vi-IV-V' and friends — the chord-quality rules we're encoding.
+- [**`colored` crate documentation**](https://docs.rs/colored/latest/colored/) — ANSI terminal colours with a friendly API. Used for the chord highlighting.
+- [**Cargo Book — Specifying dependencies**](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html) — Everything you can put in `Cargo.toml` for a dependency: versions, features, git, path, dev-dependencies.
+- [**`crates.io`** — search the Rust package registry](https://crates.io) — Where every crate lives. Download counts and last-updated dates are useful when picking between options.
+
+---
 ## DofE Log Reminder
 
 > 📝 Session 8 done — and **Milestone 1 reached**. Two things to do in `dfe/`: fill in your Session 8 log entry in [`dfe/session-log.md`](../../dfe/session-log.md), and complete [`dfe/milestone-1-reflection.md`](../../dfe/milestone-1-reflection.md). The milestone reflection is the more substantial one — block out 15 minutes for it.

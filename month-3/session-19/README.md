@@ -236,6 +236,16 @@ let v: Vec<u32> = Counter(0).collect();         // [1, 2, 3, 4, 5]
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Closures and Iterators (deep dive)). All free; all current as of writing.
+
+- [**The Rust Book** — *Closures: Anonymous Functions That Capture Their Environment* (13.1)](https://doc.rust-lang.org/book/ch13-01-closures.html) — Read again now that you've seen them at scale.
+- [**The Rust Book** — *Processing a Series of Items with Iterators* (13.2)](https://doc.rust-lang.org/book/ch13-02-iterators.html) — The companion chapter, with the lazy-evaluation explanation that makes everything click.
+- [**`itertools` crate** — extra adapters](https://docs.rs/itertools/latest/itertools/) — Adds `chunks`, `tuple_windows`, `cartesian_product`, and dozens more useful adapters not in `std`.
+- [**Niko Matsakis — *Closures Magic Functions***](https://smallcultfollowing.com/babysteps/blog/2014/05/13/focusing-on-ownership/) — From a Rust language designer; how closures relate to ownership.
+
+---
 ## DofE Log Reminder
 
 Row 19. Note in your log that you wrote your first custom iterator — that's a real Rust milestone.

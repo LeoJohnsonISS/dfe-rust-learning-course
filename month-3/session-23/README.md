@@ -159,6 +159,17 @@ SampleFormat::F32 | SampleFormat::I16 | SampleFormat::U16
 // You handled F32; add the others if your device requires them.
 ```
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Live MIDI — `midir`, `cpal`, threads & `mpsc`). All free; all current as of writing.
+
+- [**The Rust Book** — *Fearless Concurrency* (chapter 16)](https://doc.rust-lang.org/book/ch16-00-concurrency.html) — Threads, channels (`mpsc`), shared state. The session's foundation.
+- [**`std::sync::mpsc` documentation**](https://doc.rust-lang.org/std/sync/mpsc/) — The standard-library channel we're using. Note: there's also `crossbeam-channel` if you ever want more performance.
+- [**`midir` crate documentation**](https://docs.rs/midir/latest/midir/) — Cross-platform MIDI input library.
+- [**`cpal` crate documentation**](https://docs.rs/cpal/latest/cpal/) — Cross-platform audio output library. Read the *Getting Started* section.
+- [**Mara Bos — *Rust Atomics and Locks* (free book)**](https://marabos.nl/atomics/) — If concurrency clicks for you, this is the next book. Free online; ~150 pages of dense gold.
+
+---
 ## DofE Log Reminder
 
 Open `dfe/session-log.md`, find row 23, and write 1–3 sentences about what you built. Mention: what was the hardest part of the threading model? Did you see a "stuck note" bug? How did you fix it?

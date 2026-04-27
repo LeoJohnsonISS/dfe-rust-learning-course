@@ -219,6 +219,17 @@ After every session. The point of git is the timeline — one big commit at the 
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Setup & GitHub). All free; all current as of writing.
+
+- [**The Rust Programming Language** — *Installation* (chapter 1.1)](https://doc.rust-lang.org/book/ch01-01-installation.html) — The official install guide. Worth bookmarking; you'll come back to chapter 3 a lot.
+- [**Pro Git** (free book) — chapters 1 & 2](https://git-scm.com/book/en/v2) — The definitive guide to git. You only need the first ~80 pages for this course; chapters 3+ are for the curious.
+- [**GitHub Docs — *Hello World* tutorial**](https://docs.github.com/en/get-started/start-your-journey/hello-world) — GitHub's own 10-minute walkthrough that mirrors what you just did, with screenshots.
+- [**Atlassian Git tutorials**](https://www.atlassian.com/git/tutorials) — Excellent, gentle explanations of every git concept with diagrams. Great for when a command does something surprising.
+- [**Oh Shit, Git!?!** — recovering from common mistakes](https://ohshitgit.com) — Bookmark this. Three commits in, you'll need it.
+
+---
 ## DofE Log Reminder
 
 > 📝 This is a pre-flight session, not one of the 24 numbered DofE sessions. **Don't fill in a session-log row for it.** But if you're using the GitHub workflow, your "session 0: add my name to the log" commit is the first entry of your evidence trail — your assessor will see it on the printed commit-history page at the back of the binder.

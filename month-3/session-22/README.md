@@ -120,6 +120,16 @@ fn ticks_to_seconds(ticks: u64, tpqn: u32, tempo_us_per_qn: u32) -> f32 {
 // 0xC0 = ProgramChange
 ```
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Parsing MIDI files with `midly`). All free; all current as of writing.
+
+- [**`midly` crate documentation**](https://docs.rs/midly/latest/midly/) — The crate we're using. Read the top-level docs and the *Usage* section.
+- [**MIDI Association — *MIDI 1.0 specification overview***](https://www.midi.org/specifications/midi1-specifications) — The actual spec, free with a sign-up. The 'Standard MIDI Files' (SMF) document is what we're parsing.
+- [**Wikipedia — *MIDI*** (good intro)](https://en.wikipedia.org/wiki/MIDI) — Plain-English overview of what MIDI is, why it's old, and why it's still everywhere.
+- [**`midi.teragonaudio.com`** — SMF format explained byte-by-byte](http://midi.teragonaudio.com/tech/midifile.htm) — The most-readable per-byte breakdown of the file format on the web.
+
+---
 ## DofE Log Reminder
 
 Open `dfe/session-log.md`, find row 22, and write 1–3 sentences. Mention: how many notes were in your file and what surprised you about the file format.

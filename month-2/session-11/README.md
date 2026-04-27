@@ -182,6 +182,16 @@ for (k, v) in &m { ... }
 
 ---
 
+## Further Reading
+
+Curated extra material on the topics covered in this session (Collections — `Vec` and `HashMap`). All free; all current as of writing.
+
+- [**The Rust Book** — *Common Collections* (chapter 8)](https://doc.rust-lang.org/book/ch08-00-common-collections.html) — Vec, String, and HashMap explained together.
+- [**`Vec<T>` documentation**](https://doc.rust-lang.org/std/vec/struct.Vec.html) — The most-used data structure in Rust. The method list at the top is your menu.
+- [**`HashMap<K, V>` documentation**](https://doc.rust-lang.org/std/collections/struct.HashMap.html) — Note the *Performance* and *HashDoS resistance* sections — explains why Rust's default hasher is slower than e.g. Python's.
+- [**The Rust Performance Book** — Collections](https://nnethercote.github.io/perf-book/collections.html) — Tips for choosing the right container. Reach for this once your program does anything serious.
+
+---
 ## DofE Log Reminder
 
 Row 11. Half a minute of writing earns you a full week of Skill credit. Bargain.
