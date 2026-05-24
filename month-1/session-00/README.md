@@ -6,6 +6,8 @@
 >
 > **No log entry needed for Session 0.** Your DofE session log starts at Session 1 and runs to Session 24 — 24 entries total, not 25. Session 0 is setup, not skill practice.
 
+> ⚠️ **Already forked the course before 24 May 2026?** The course pivoted from three separate projects (music-theory-cli / world-generator / midi-synth) to a single evolving `sand-sim` arc. Your fork is now out of date. **Jump to [Part 6.5 — Sync an out-of-date fork](#part-65--sync-an-out-of-date-fork)** before you do anything else — don't start Session 1 against the old material.
+
 ---
 
 ## What You'll Learn
@@ -185,6 +187,101 @@ You now have your own copy at `https://github.com/<your-username>/dfe-rust-learn
 
 > **What just happened?** A fork is a *server-side copy*. GitHub remembers your fork is descended from the original, which means later you can pull in any updates the original repo gets (e.g. bug fixes to the example code). Forking is how almost all open-source contribution starts.
 
+### Part 6.5 — Sync an out-of-date fork
+
+> **Skip this if you forked the repo today.** This section is for participants whose fork is older than the upstream (e.g. if you forked before the **24 May 2026** pivot from three projects to the single `sand-sim` arc). If you've never seen `MUSIC-THEORY-PRIMER.md`, `world-generator/`, or `midi-synth/` in your fork, you forked after the pivot — skip ahead to Part 7.
+
+#### Option A — the GitHub website (easiest)
+
+1. Open your fork in a browser: `https://github.com/<your-username>/dfe-rust-learning-course`.
+2. Near the top of the file list you'll see a panel that says **"This branch is N commits behind Zesty0wl:main"**.
+3. Click the **Sync fork** dropdown on the right, then click **Update branch**.
+4. If GitHub says **"This branch has conflicts that must be resolved"**, jump to Option B below — it gives you full control.
+
+Done. Your fork now matches upstream. If you'd already cloned your fork to your laptop, pull the updates into your local copy:
+
+```bash
+cd ~/Projects/dfe-rust-learning-course
+git pull
+```
+
+#### Option B — from the command line (more control)
+
+Use this if you've made local commits on your fork that you want to keep, or if the web sync flagged conflicts.
+
+**1. Add the original course as `upstream`** (one-off; you only do this once per clone):
+
+```bash
+cd ~/Projects/dfe-rust-learning-course
+git remote add upstream https://github.com/Zesty0wl/dfe-rust-learning-course.git
+git remote -v
+# origin    https://github.com/<you>/dfe-rust-learning-course (fetch)
+# origin    https://github.com/<you>/dfe-rust-learning-course (push)
+# upstream  https://github.com/Zesty0wl/dfe-rust-learning-course (fetch)
+# upstream  https://github.com/Zesty0wl/dfe-rust-learning-course (push)
+```
+
+**2. Fetch the latest from upstream:**
+
+```bash
+git fetch upstream
+```
+
+**3. Check what state you're in:**
+
+```bash
+git status                              # any uncommitted local changes?
+git log --oneline main..upstream/main   # what commits is upstream ahead by?
+```
+
+**4. Save anything you've worked on that's about to be deleted.**
+
+The 24 May 2026 pivot **deleted** every per-session example folder (`month-1/session-02/examples/`, `chromatic_scale/`, `world_grid/`, all the `midi-synth/` files, …). If you've been editing any of those, copy the files you care about somewhere safe **outside the repo** before the next step:
+
+```bash
+cp -r month-1/session-02/examples ~/my-old-rust-work/   # adjust to whichever folders matter to you
+```
+
+**5. Merge upstream into your `main`:**
+
+```bash
+git checkout main
+git merge upstream/main
+```
+
+If the merge is clean, `git push` and you're done.
+
+If git reports conflicts (e.g. you'd edited `dfe/session-log.md` and upstream changed the same file), open each conflicted file in VS Code — it highlights `<<<<<<<` / `=======` / `>>>>>>>` blocks and offers **Accept Current** / **Accept Incoming** / **Accept Both** buttons. Pick what you want, save, then:
+
+```bash
+git add <file>
+git commit              # finishes the merge
+git push
+```
+
+**6. The nuclear option.** If your fork has no work worth keeping and you just want it to look exactly like upstream:
+
+```bash
+git fetch upstream
+git reset --hard upstream/main
+git push --force-with-lease
+```
+
+⚠️ This **discards every local commit** on your `main` branch. Only do it if you're sure. If you've made meaningful commits (your name added to `session-log.md`, real session work), use the merge route in step 5 instead.
+
+#### After syncing — what changed?
+
+Quick recap of what your fork now contains that it didn't before:
+
+- A new top-level [`CHEMISTRY-PRIMER.md`](../../CHEMISTRY-PRIMER.md) (replacing the deleted `MUSIC-THEORY-PRIMER.md`)
+- A rewritten root [`README.md`](../../README.md), [`SETUP.md`](../../SETUP.md), [`GLOSSARY.md`](../../GLOSSARY.md), and all three [month-1](../../month-1/README.md) / [month-2](../../month-2/README.md) / [month-3](../../month-3/README.md) READMEs
+- A rebuilt session-01 README (the old music/Pi-benchmark version is gone)
+- A new [`diagrams/`](../../diagrams/) folder with 10 animated SVGs and a new [`screenshots/`](../../screenshots/) folder with a 16-shot evidence checklist
+- All session `examples/` folders and the three `project/` folders deleted (their content rolls into the per-session walkthroughs and the milestone folders coming in later sessions)
+- All [`dfe/`](../../dfe/) docs regenerated to reference v0.1 / v0.2 / v1.0 instead of the old three projects
+
+You should now restart Session 1 from scratch — the new version is a different lesson with a different goal (window + grid + first pixel rather than a Python-vs-Rust benchmark).
+
 ### Part 7 — Clone your fork to your laptop (5 minutes)
 
 "Clone" means download a working copy you can edit. Open a terminal:
@@ -205,7 +302,7 @@ You should now see all the course files listed:
 
 ```bash
 ls
-# README.md  SETUP.md  GLOSSARY.md  MUSIC-THEORY-PRIMER.md  dfe  diagrams  month-1  month-2  month-3  ...
+# CHEMISTRY-PRIMER.md  GLOSSARY.md  README.md  SETUP.md  dfe  diagrams  month-1  month-2  month-3  resources  screenshots
 ```
 
 > **Windows note.** If you do prefer PowerShell, `ls` works there too (it's aliased to `Get-ChildItem`). In the old `cmd.exe` you'd need `dir` instead, and `~` won't expand to your home folder — use `%USERPROFILE%` or just `cd C:\Users\<you>\Projects`. Git Bash sidesteps all of that, which is why we recommend it.
@@ -255,14 +352,22 @@ Refresh your fork's page on github.com — you should see your commit at the top
 
 ### Part 9 — Confirm the toolchain works end to end (5 minutes)
 
-Run a small Rust program from the course to make sure everything's wired up. From the **repo root** (in VS Code's integrated terminal):
+Run a tiny Rust program to make sure everything's wired up. From the integrated terminal in VS Code (`⌘\`` / ``Ctrl+\``), step **outside** the course folder first (Cargo refuses to make a new project inside another Cargo project, and you don't want to commit this throwaway to your fork):
 
 ```bash
-cd month-1/session-01/examples/pi_rust
-cargo run --release
+cd ~                       # back to your home folder
+cargo new hello_test
+cd hello_test
+cargo run
 ```
 
-You should see Rust download a few things on first run, compile for a few seconds, then print a Pi estimate. If you see that, you're done. Close the terminal and take a break — Session 1 is next.
+You should see a brief compile and then:
+
+```
+Hello, world!
+```
+
+If you see that, you're done. Delete the folder when you're done (`cd .. && rm -rf hello_test`) and take a break — Session 1 is next, and that's where the real fun starts.
 
 ---
 
@@ -287,7 +392,7 @@ You're ready for Session 1 if all of these are true:
 - [ ] VS Code opens, and the **rust-analyzer** extension is listed under Extensions as Installed
 - [ ] You can see your fork at `https://github.com/<your-username>/dfe-rust-learning-course`
 - [ ] You've made and pushed at least one commit
-- [ ] `cargo run --release` worked in the `pi_rust` example folder
+- [ ] `cargo run` printed `Hello, world!` in your `hello_test` project
 
 If any of those fail, fix them before moving on. Asking for help is fine — your assessor would much rather you get unstuck early than struggle silently for two months.
 
@@ -342,4 +447,4 @@ Asking for help isn't cheating — real Rust developers do it daily. Search firs
 
 ## Next Up
 
-[**Session 1 — Why Rust? History, Setup, and the Speed Demo**](../session-01/)
+[**Session 1 — A Window, a Grid, and Your First Pixel**](../session-01/)
