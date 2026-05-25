@@ -6,23 +6,23 @@ A running log of all 24 sessions in one document. Fill in the date and the body 
 
 | Participant name | Leo Johnson |
 | --- | --- |
-| Award level | Skills (Bronze / Silver / Gold) |
-| Start date | |
+| Award level | Skills (Bronze) |
+| Start date | 25/05/26 |
 
 ---
 
 ## Session 1 — A Window, a Grid, and Your First Pixel
-**Date:**
-**Time spent:**
+**Date:** 25/05/26
+**Time spent:** 60min
 
 ### What I did today
-
+Created a window with the ability to draw pixels within
 ### What I learned
-
+Basic syntax of Rust: defining variables, creating loops, importing variables, etc.
 ### What was hard
-
+finding the right position for if is_mouse_button_down() - stems from initial lack of fundamental understanding
 ### What I'd like to explore further
-
+difference between run and run --release, why --release makes it faster and what tradeoffs this creates
 ---
 
 ## Session 2 — Variables, Types, and Giving Sand a Colour
