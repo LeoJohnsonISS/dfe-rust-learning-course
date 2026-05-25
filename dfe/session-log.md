@@ -4,7 +4,7 @@ A running log of all 24 sessions in one document. Fill in the date and the body 
 
 > **You don't have to do it here.** If you're keeping the printed booklet (`session-log-printable.md` → A4 PDF), that's your primary log and this file is optional. If you're using the git-and-fork workflow, this is your primary log and you commit after each entry. See [`README.md`](./README.md) for the two paths.
 
-| Participant name | _Your Name Here_ |
+| Participant name | Leo Johnson |
 | --- | --- |
 | Award level | Skills (Bronze / Silver / Gold) |
 | Start date | |
