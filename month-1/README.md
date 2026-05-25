@@ -53,7 +53,7 @@ The eight sessions trade off **new Rust concept** with **new visible feature** s
 - Pause (spacebar), clear (`C`), FPS counter
 - A soft sand-pour sound while you're spawning sand
 
-The whole thing is one Cargo project: `month-1/milestone/sand-sim-v0.1/`. Sessions 7 and 8 build it directly in that folder; the earlier sessions live in per-session `starter/` and `solution/` folders so you can roll back if something goes wrong.
+The whole thing is one Cargo project. In [Session 1](./session-01/README.md) you'll run `cargo new sand-sim` **outside this repo** (e.g. in `~/Projects/`) and keep editing that same folder through Sessions 1–6 as the simulation grows. In [Session 7](./session-07/README.md) you copy the finished Session 6 code into `month-1/milestone/sand-sim-v0.1/` and from then on the milestone folder is where the project lives — that's the folder that gets committed and tagged `v0.1` at the end of [Session 8](./session-08/README.md).
 
 ---
 

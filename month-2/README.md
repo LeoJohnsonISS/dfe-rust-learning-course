@@ -50,7 +50,7 @@ The single most important session this month is **Session 14**, where you stop s
 - **Audio:** fire crackle, lava sizzle, low explosion thump on oil ignition
 - An on-screen element counter so you can see (e.g.) how much steam is currently in the world
 
-The whole thing is the same Cargo project from Month 1, evolved: `month-2/milestone/sand-sim-v0.2/`. The session-by-session `starter/` and `solution/` folders work the same way.
+The whole thing is the same Cargo project from Month 1, evolved: `month-2/milestone/sand-sim-v0.2/`. Session 9 copies your finished v0.1 into that folder, and every session after that edits the same project — there are **no** per-session `starter/` or `solution/` snapshots in this repo. Your git history is the snapshot.
 
 ---
 

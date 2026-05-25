@@ -88,7 +88,7 @@ cargo clippy --all-targets -- -D warnings && cargo fmt --check && cargo build --
 
 Edit `/README.md` (the top-level repo README) to point at v1.0:
 
-```markdown
+````markdown
 # Rust Learning Course — sand-sim project
 
 A three-month Rust course delivered through the Duke of Edinburgh Award scheme. Build a falling-sand physics simulator over 24 sessions, shipping three releases.
@@ -117,13 +117,13 @@ cargo run --release
 ## DofE evidence
 
 The `dfe/` folder holds the participant log, milestone reflections, and assessor briefing.
-```
+````
 
 ### 3. The v1.0 README — 8 minutes
 
 Edit `month-3/milestone/sand-sim-v1.0/README.md`:
 
-```markdown
+````markdown
 # sand-sim v1.0
 
 A real-time, table-driven physics-and-chemistry sandbox in Rust. 15+ elements, recipe-based discovery, save/load, codex UI, hidden secrets.
@@ -192,7 +192,7 @@ This was a course project. Real-world extensions:
 - **Bigger engine**: port to [Bevy](https://bevyengine.org/) — the major Rust game engine. ECS, async asset loading, scene graph. Your sim becomes a *system* in Bevy's terms.
 - **Real fluid dynamics**: replace the cellular-automaton water with a true Navier-Stokes grid solver. Slower per frame but visually astonishing. Many tutorials exist.
 - **Embedded**: a smaller version with ~50×30 cells could run on a Raspberry Pi Pico in `no_std` Rust, painting cells to an OLED. The same `CellType` enum, the same reactions table, the same architecture.
-```
+````
 
 ### 4. Tag the release — 1 minute
 

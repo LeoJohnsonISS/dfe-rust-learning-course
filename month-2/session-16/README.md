@@ -225,7 +225,7 @@ Re-runs `count_cells` each frame (cheap; the simulation is already O(rows × col
 
 Replace `month-2/milestone/sand-sim-v0.2/README.md` with the real thing:
 
-```markdown
+````markdown
 # sand-sim v0.2
 
 A real-time falling-sand chemistry sandbox in Rust. Eleven elements (sand, water, stone, wood, fire, smoke, oil, oilfire, steam, acid, lava, ice) with table-driven reactions, temperature simulation, and audio.
@@ -260,7 +260,7 @@ Audio: see `assets/CREDITS.md` (alongside this README inside the milestone folde
 ## What's next
 
 Month 3 (see `month-3/README.md` at the repo root) adds modules, save/load, a recipe-based discovery system, the codex UI, and ships v1.0.
-```
+````
 
 Complete [`dfe/milestone-2-reflection.md`](../../dfe/milestone-2-reflection.md). Same as Session 8 — be specific.
 

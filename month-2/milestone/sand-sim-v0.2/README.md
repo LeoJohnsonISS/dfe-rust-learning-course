@@ -8,8 +8,9 @@ This is where your **`sand-sim` v0.2** lives. It starts as a copy of the v0.1 pr
 
 | Session | What goes into this folder |
 |---|---|
-| 9–14 | Small per-session experiments in their own `starter/` / `solution/` folders; concepts like `struct`, `Option<T>`, iterators, `HashMap`. |
-| **15** | Cargo project is copied from `sand-sim-v0.1`. Lava + Ice + chain reactions added via the reactions table. |
+| **9** | Copy your finished v0.1 from `month-1/milestone/sand-sim-v0.1/` into this folder. From here on, *every* edit happens here — no per-session `starter/` / `solution/` snapshots. Your git history is the snapshot. |
+| 10–14 | Add struct fields, enums-with-data, `Option<T>`, iterators, and the `HashMap`-backed reactions table — all in this same Cargo project. |
+| **15** | Lava + Ice + chain reactions added via the reactions table. |
 | **16** | Reaction balancing, heat-map overlay, element counts, audio effects (fire crackle, lava sizzle, oil-ignition thump). **v0.2 ships.** |
 
 ## How you run it (once it exists)

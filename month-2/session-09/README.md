@@ -74,7 +74,7 @@ name    = "sand-sim"
 version = "0.2.0"
 ```
 
-`month-2/session-09/starter/` and `month-2/session-09/solution/` (and same for sessions 10–14) work the same way as Month 1: stay-frozen snapshots. Day-to-day work happens in `month-2/milestone/sand-sim-v0.2/`.
+From this point onward, *all* Month 2 edits happen inside `month-2/milestone/sand-sim-v0.2/` — there are no per-session `starter/` or `solution/` snapshots in this repo. Your git commits at the end of each session are the snapshots; if you want to compare "what changed in Session 12", read the diff.
 
 ### 1. Declare the `Cell` struct — 3 minutes
 
@@ -222,7 +222,9 @@ Save. Run. Press `H` to enable heat-source mode. Drop a brush of sand. **Glowing
 
 > **The Wow Moment.** Pour a stream of normal (cold) sand. It piles up beige. Press `H`. Pour another stream on top. The new sand drops in *glowing*. The pile is now a beige base with a hot orange ridge on top. **You've simulated temperature as a per-cell property** \u2014 the same data structure that Session 11 will use to make fire spread.
 
-### 5. (Optional) Heat decays over time \u2014 3 minutes
+### 5. Heat decays over time — 3 minutes
+
+> **Don't skip this one.** Session 13 refactors this exact `cool_pass` function with iterators, and Sessions 11–15 assume hot cells eventually cool back down. Without it, anything you heat stays hot forever.
 
 In `step` (after the per-cell update), add a sweep that cools every non-empty cell by a tiny amount per frame:
 

@@ -10,8 +10,8 @@ Each session in Month 1 either teaches a Rust concept or adds a feature to this 
 
 | Session | What goes into this folder |
 |---|---|
-| 1–6 | You build small per-session experiments in their own `starter/` and `solution/` folders. This milestone folder stays empty. |
-| **7** | Cargo project is initialised here. UI selector, keyboard shortcuts, brush radius. |
+| 1–6 | You build a single `sand-sim/` Cargo project **outside this repo** (Session 1 has you put it in something like `~/Projects/sand-sim/`). This milestone folder stays empty. |
+| **7** | You copy your finished Session 6 project into this folder. UI selector, keyboard shortcuts, brush radius land here. |
 | **8** | FPS counter, pause/clear, on-screen legend, sound effect. **v0.1 ships.** |
 
 ## How you run it (once it exists)

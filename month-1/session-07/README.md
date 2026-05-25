@@ -56,18 +56,28 @@ This session begins the **milestone phase** of Month 1. Work today goes straight
 
 ### 0. Copy your Session 6 project into the milestone folder — 2 minutes
 
-From the repo root:
+In Session 1 you created `sand-sim/` somewhere **outside this repo** (e.g. `~/Projects/sand-sim/`) and you've been editing that same folder through Sessions 2–6. Now is the moment it moves *into* the repo so it can be committed as the Month 1 milestone.
+
+From the repo root (the `dfe-rust-learning-course/` folder):
 
 ```bash
 mkdir -p month-1/milestone/sand-sim-v0.1
-cp -R month-1/session-06/solution/. month-1/milestone/sand-sim-v0.1/
+
+# Adjust the source path to wherever your sand-sim project actually lives.
+# The trailing /. copies the contents (including Cargo.toml, src/, etc.)
+# rather than nesting another sand-sim/ folder inside.
+cp -R ~/Projects/sand-sim/. month-1/milestone/sand-sim-v0.1/
+
+# Drop the build artefacts — they're huge and shouldn't be committed.
+rm -rf month-1/milestone/sand-sim-v0.1/target
+
 cd month-1/milestone/sand-sim-v0.1
 cargo run     # confirm it still works in the new location
 ```
 
-If you've been working in `session-06/starter/` instead, copy from that folder. From now on, run from `sand-sim-v0.1`. Session 6's `starter/` and `solution/` stay frozen as the "what Session 6 looked like" snapshot.
+From now on, run every `cargo` command from inside `month-1/milestone/sand-sim-v0.1/`. Your original `~/Projects/sand-sim/` folder stays as a personal backup — you can delete it or leave it alone; the milestone folder is the canonical copy from this point.
 
-(If `month-1/milestone/sand-sim-v0.1/` already exists with a starter scaffold, copy your `src/main.rs` and any tweaks to `Cargo.toml` into it.)
+> **Why a fresh copy rather than a symlink or a move?** A copy means your `~/Projects/sand-sim/` is an untouchable snapshot of "where Session 6 ended" — useful if you ever want to roll back. It also keeps the commit history clean: the milestone folder grows from a known-good baseline.
 
 ### 1. Brush radius state — 2 minutes
 
@@ -135,6 +145,23 @@ Then update the mouse handler in `main`:
 **Save. Run.** Click and drag — you're painting a circle. Scroll the wheel — the circle scales. Right-click — eraser. **First runnable checkpoint.**
 
 ### 3. The selector UI — 8 minutes
+
+> **Quick check first.** The function below calls `e.colour()` — a method on `CellType`. That comes from the optional `impl CellType { fn colour(self) -> Color { ... } }` block in [Session 6 Part 6](../session-06/README.md#6-optional-impl-celltype-for-tidy-code--4-minutes). If you added it, skip to the next paragraph. **If you skipped it, paste this in now** (anywhere above `main`, not inside another function):
+>
+> ```rust
+> impl CellType {
+>     fn colour(self) -> Color {
+>         match self {
+>             CellType::Sand  => Color::new(0.95, 0.78, 0.40, 1.0),
+>             CellType::Water => Color::new(0.20, 0.55, 0.95, 1.0),
+>             CellType::Stone => Color::new(0.55, 0.55, 0.60, 1.0),
+>             CellType::Empty => BLACK,
+>         }
+>     }
+> }
+> ```
+>
+> You can also replace your existing free function `cell_colour(cell)` call sites with `cell.colour()` if you'd like the whole codebase to use the method form — but you don't have to today.
 
 After the grid-drawing block but before `next_frame().await`, add:
 

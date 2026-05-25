@@ -252,7 +252,7 @@ Compile takes longer (a minute or two from scratch); the resulting simulation fe
 
 Replace `month-1/milestone/sand-sim-v0.1/README.md` with the real thing:
 
-```markdown
+````markdown
 # sand-sim v0.1
 
 A real-time falling-sand sandbox in Rust. Three elements (sand, water, stone), brush painting, basic UI.
@@ -279,7 +279,7 @@ Audio: see `assets/CREDITS.md` (alongside this README inside the milestone folde
 ## What's next
 
 Month 2 (see `month-2/README.md` at the repo root) adds fire, water-boils-to-steam, oil, lava, ice, acid, and a reactions architecture.
-```
+````
 
 Now the milestone is *legible* to someone who finds the folder cold.
 
