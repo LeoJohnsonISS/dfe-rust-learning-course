@@ -26,17 +26,17 @@ difference between run and run --release, why --release makes it faster and what
 ---
 
 ## Session 2 — Variables, Types, and Giving Sand a Colour
-**Date:**
-**Time spent:**
+**Date:** 26/05/16
+**Time spent:** 27min
 
 ### What I did today
-
+Set constant names and colours for elements, displayed currently selected element to screen
 ### What I learned
-
+More accurate definitions for syntax like constants, and the **immutable by default** rule, which states that any defined variable is unchangeable unless otherwise stated
 ### What was hard
 
 ### What I'd like to explore further
-
+different variable types, when you should use f32 or u8, etc.
 ---
 
 ## Session 3 — Sand Falls
