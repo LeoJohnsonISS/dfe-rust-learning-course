@@ -40,17 +40,17 @@ different variable types, when you should use f32 or u8, etc.
 ---
 
 ## Session 3 — Sand Falls
-**Date:**
-**Time spent:**
+**Date:** 27/05/26
+**Time spent:** 45min
 
 ### What I did today
-
+Made sand grains fall downwards if their lower neighbour is empty, or diagonally downwards if the direct downwards neighbour is occupied but one of the diagonal downwards neighbours isn't
 ### What I learned
-
+To always perform physics updates against the direction of movement, as if you perform them in the direction of movement multiple physics updates occur per rendered frame
 ### What was hard
-
+Understanding some of the syntax, specifically the parts used in making the random choice between left and right
 ### What I'd like to explore further
-
+When a sand pile is drained from the centre point at the bottom, a bias towards the left slope forms, creating a curve on the right slope. What causes this is unknown, as the code to decide which way sand falls is a coin-toss chance.
 ---
 
 ## Session 4 — Control Flow and a Better Update Loop
