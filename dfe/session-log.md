@@ -54,13 +54,13 @@ When a sand pile is drained from the centre point at the bottom, a bias towards 
 ---
 
 ## Session 4 — Control Flow and a Better Update Loop
-**Date:**
-**Time spent:**
+**Date:** 28/05/26
+**Time spent:** 15min
 
 ### What I did today
-
+Refined the messy physics step function into a three part system to make edits easier
 ### What I learned
-
+Different kinds of logical operators (AND, OR, NOT, )
 ### What was hard
 
 ### What I'd like to explore further
